@@ -1,23 +1,29 @@
 ---
+title: "Red Hat Community"
 layout: default
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <div class="mission">
+    <div class="mission-text">
+      <p>Red Hat's mission: To be the catalyst in communities of
+        customers, contributors, and partners creating better technology
+        <strong>the open source way</strong>.</p>
+    </div>
+  </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class="grid">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <div class="col">
+      <h2>Posts</h2>
+      {% include posts.html %}
+    </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <div class="col-5_md-4_sm-0">
+      <h2>Upcoming</h2>
+      {% include upcoming.html %}
+    </div>
 
+  </div>
 </div>
