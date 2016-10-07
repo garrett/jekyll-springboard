@@ -1,0 +1,14 @@
+- title: Home
+  link: "/"
+
+- title: Events
+  link: /events/
+
+- title: Software
+  link: /software/
+
+- title: Standards
+  link: /standards/
+
+- title: Search
+  link: /search/
