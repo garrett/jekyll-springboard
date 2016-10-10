@@ -1,8 +1,43 @@
 @import url("//overpass-30e2.kxcdn.com/overpass.css")
 @import url('//fonts.googleapis.com/css?family=Open+Sans')
 
-body
-  font-family: open sans, sans-serif
+// Our variables
+$base-font-family: open sans, sans-serif
+$base-font-size:   16px
+$base-font-weight: 400
+$small-font-size:  $base-font-size * 0.875
+$base-line-height: 1.5
+
+$spacing-unit:     $gl-gutter
+
+$text-color:       #111
+$background-color: #fdfdfd
+$brand-color:      #2a7ae2
+
+$grey-color:       #828282
+$grey-color-light: lighten($grey-color, 40%)
+$grey-color-dark:  darken($grey-color, 25%)
+
+// Width of the content area
+$content-width:    60em
+
+// Minima also includes a mixin for defining media queries.
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+
+// Import partials from the `minima` theme.
+@import "minima"
+
+// Events and upcoming support. 
+// Comment out or remove if you don't use calendar or upcoming features.
+@import "lib/events"
+
+///////////////////////////////////////////////////////////////////////
 
 h1, h2, h3, h4, h5, h6, nav a
   font-family: overpass, sans-serif
@@ -10,6 +45,9 @@ h1, h2, h3, h4, h5, h6, nav a
 
 h1, h2, h3, h4, h5, h6, nav a
   color: #777
+
+.wrapper
+
 
 nav a
   font-size: 150%
