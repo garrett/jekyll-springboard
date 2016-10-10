@@ -1,0 +1,29 @@
+- title: Get Started
+  url: "/download"
+
+- title: Documentation
+  url: "/docs"
+
+- title: Developer Community
+  url: "/community"
+
+- title: On GitHub
+  url: "https://github.com/projectatomic/"
+
+- title: Ask
+  url: "http://ask.projectatomic.io/"
+
+- title: Blog
+  url: "/blog"
+
+- title: Twitter
+  url: "http://www.twitter.com/projectatomic"
+
+- title: Facebook
+  url: "https://www.facebook.com/projectatomic"
+
+- title: Google+
+  url: "https://plus.google.com/108727025270662383247/posts"
+
+- title: RSS
+  url: "/blog/feed.xml"
