@@ -1,0 +1,47 @@
+{% assign img == site.images | default: "images" %}
+
+<div id="project-list">
+
+  {% for group in site.data[include.type] %}
+
+    <div class="category category--{{ group[0] | slugify }}">
+      <h2 id="{{ group[0] | slugify }}">{{ group[0] }}</h2>
+
+      <div class="projects">
+
+        {% unless include.primary == false %}
+          <div class="primary">
+            <ul>
+              {% for project in group[1] %}
+                {% assign image = project.image | (default: project.name | slugify) %}
+                {% assign img_file = "/I/T/F.svg" | replace: "I", img | replace: "T", include.type | replace: "F", image %}
+                {% assign img_src = site.static_files | where: "path", img_file %}
+
+                {% if img_src[0] %}
+                  <li>
+                    <a class="item-{{ image }} type-{{ img_src[0].extname | remove: "." }}" href="{{ project.url }}"><img src="{{ img_src[0].path | prepend: site.baseurl }}" alt="{{ project.name }}" title="{{ project.name }}"></a>
+                  </li>
+                {% endif %}
+
+              {% endfor %}
+            </ul>
+          </div>
+        {% endunless %}
+
+        {% unless include.secondary == false %}
+          <div class="secondary">
+            <ul>
+              {% for project in group[1] %}
+                <li class="item-{{ project.name | slugify }}">
+                  <a href="{{ project.url }}">{{ project.name }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endunless %}
+      </div>
+    </div>
+
+  {% endfor %}
+
+</div>
