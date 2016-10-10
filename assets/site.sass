@@ -1,0 +1,161 @@
+// Please copy default.scss to site.scss to customize your site.
+//
+// If site.scss (or site.sass) exists, then default.scss will not
+// be used. (You can then use it for reference later.)
+//
+// Be sure to `@import "minima"` after the variables needed for it
+// and before your own custom CSS, so you can easily override
+// (if you really need to).
+
+// Our variables
+$base-font-family: 'Open Sans', sans-serif
+$base-font-size: 14px
+$base-font-weight: 400
+$small-font-size: $base-font-size * 0.875
+$base-line-height: 1.5
+
+$spacing-unit: 1rem
+
+$text-color: #111
+$background-color: #fdfdfd
+$brand-color: #2a7ae2
+
+$grey-color: #828282
+$grey-color-light: lighten($grey-color, 40%)
+$grey-color-dark: darken($grey-color, 25%)
+
+// Width of the content area
+$content-width: 70em
+
+// Import partials from the `minima` theme.
+@import minima
+
+// Events and upcoming support. 
+// Comment out or remove if you don't use calendar or upcoming features.
+@import lib/events
+@import lib/scrollbar-on
+
+// Minima also includes a mixin for defining media queries.
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700|Pathway+Gothic+One'
+
+$sidebar-width: 190px
+
+html
+  background: #646464
+
+body
+  @extend .grid
+  margin: 0 auto
+  max-width: 70rem
+  overflow-x: hidden
+
+.masthead
+  @extend .col
+  background: #2b2b2b
+  color: #fff
+  padding: 0
+
+  @media screen and (min-width: $on-laptop)
+    min-width: $sidebar-width
+    max-width: $sidebar-width
+
+  @media screen and (max-width: $on-laptop)
+    max-width: 100%
+
+  h1
+    margin: 12px auto
+    text-align: center
+    padding: 15px
+  
+    .logo
+      width: 160px
+      height: auto
+
+  .hgroup
+    border-bottom: 1px solid #111
+
+  nav
+    border-top: 1px solid #333
+    padding: 1.5ex
+
+    ul, li
+      padding: 0
+      margin: 0
+
+    a
+      color: #6b6b6b
+      font-size: 130%
+      line-height: 1
+      padding: 0.5ex 1ex
+
+.page-content
+  @extend .col
+
+  @media screen and (min-width: $on-laptop)
+    max-width: calc(100% - #{$sidebar-width})
+
+  @media screen and (max-width: $on-laptop)
+    max-width: 100%
+
+h1, h2, h3, h4, h5, h6, nav a, .btn
+  font-family: 'Pathway Gothic One', sans-serif
+  font-weight: bold
+
+.intro
+  padding: 3 * $spacing-unit
+  margin: -$spacing-unit
+  margin-bottom: $spacing-unit
+  font-weight: 300
+  text-shadow: 0 0 0.1px rgba(255, 255, 255, 0.1)
+
+  background: #000
+  color: #fff
+
+  .btn a,
+  a.btn
+    display: inline-block
+    padding: 0.5ex 1ex
+    border: 1px solid #fff
+    color: #fff
+    font-size: 22px
+    margin: 1ex 0 0
+    text-transform: uppercase
+
+  hr
+    margin: 2ex 0
+
+  .lead
+    font-size: 1.25rem
+
+h1
+  font-size: 2.5rem
+
+h2
+  font-size: 2.75rem
+
+h3
+  font-size: 1.7rem
+
+.social-links
+  text-align: right
+
+  ul, li
+    list-style: none
+    display: inline
+
+  a
+    padding: 2ex
+
+.pad
+  padding: 2 * $spacing-unit
+
+.news
+  @extend .pad
