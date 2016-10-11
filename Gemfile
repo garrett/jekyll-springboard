@@ -20,3 +20,8 @@ gem "minima"
 # group :jekyll_plugins do
 #   gem "jekyll-github-metadata", "~> 1.0"
 # end
+
+# The CoffeeScript gem depends on execjs which requires a JavaScript runtime.
+# This does the trick without nodejs.
+gem "therubyracer"
+
