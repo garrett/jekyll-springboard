@@ -1,14 +1,14 @@
 - title: Home
-  link: "/"
+  url: "/"
 
 - title: Events
-  link: /events/
+  url: /events/
 
 - title: Software
-  link: /software/
+  url: /software/
 
 - title: Standards
-  link: /standards/
+  url: /standards/
 
 - title: Search
-  link: /search/
+  url: /search/
