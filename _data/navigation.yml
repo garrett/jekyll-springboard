@@ -1,29 +1,29 @@
 - title: Get Started
-  link: "/download"
+  url: "/download"
 
 - title: Documentation
-  link: "/docs"
+  url: "/docs"
 
 - title: Developer Community
-  link: "/community"
+  url: "/community"
 
 - title: On GitHub
-  link: "https://github.com/projectatomic/"
+  url: "https://github.com/projectatomic/"
 
 - title: Ask
-  link: "http://ask.projectatomic.io/"
+  url: "http://ask.projectatomic.io/"
 
 - title: Blog
-  link: "/blog"
+  url: "/blog"
 
 - title: Twitter
-  link: "http://www.twitter.com/projectatomic"
+  url: "http://www.twitter.com/projectatomic"
 
 - title: Facebook
-  link: "https://www.facebook.com/projectatomic"
+  url: "https://www.facebook.com/projectatomic"
 
 - title: Google+
-  link: "https://plus.google.com/108727025270662383247/posts"
+  url: "https://plus.google.com/108727025270662383247/posts"
 
 - title: RSS
-  link: "/blog/feed.xml"
+  url: "/blog/feed.xml"
