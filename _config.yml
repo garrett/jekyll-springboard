@@ -23,7 +23,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 #url: "http://example.com" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 #github_username:  jekyll
-repository: garrett/jekyll-basic
+repository: garrett/jekyll-springboard-centos
 
 permalink: blog/:year/:month/:slug/
 paginate: 10
