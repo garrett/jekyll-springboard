@@ -1,32 +1,46 @@
 - title: Get CentOS
   url: /download/
 
-- title: About
-  url: /about/
+- title: About 
   nav:
-    - title: About CentOS
-      url: /about/centos/
-    - title: FAQ
-      url: /about/faq/
-      nav:
-        - title: Test1
-          url: /test1
-        - title: Test2
-          url: /test2
+  - title: About CentOS
+    url: /about/
+  - title: FAQ
+    url: http://wiki.centos.org/FAQ
+  - title: About SIGs
+    url: http://wiki.centos.org/SpecialInterestGroup
+  - title: CentOS Variants
+    url: /variants/
+  - title: Governance
+    url: /about/governance/
 
-- title: Community
-  url: /community/
+- title: Community 
   nav:
-    - title: Contribute
-      url: /community/contribute/
-    - title: Forums
-      url: /community/forums/
+  - title: Contribute
+    url: http://wiki.centos.org/Contribute
+  - title: Forums
+    url: http://www.centos.org/forums/
+  - title: Mailing Lists
+    url: http://wiki.centos.org/GettingHelp/ListInfo
+  - title: IRC
+    url: http://wiki.centos.org/irc
+  - title: Calendar & IRC Meeting List
+    url: /community/calendar/
+  - title: Planet
+    url: http://planet.centos.org
+  - title: Submit a Bug
+    url: http://bugs.centos.org
+  - title: Stories
+    url: /community/stories/
 
-- title: Documentation
-  url: /docs/
+- title: Documentation 
   nav:
-    - title: Wiki
-      url: /docs/wiki/
+  - title: Wiki
+    url: http://wiki.centos.org
+  - title: Manuals
+    url: /docs/
+  - title: GPG Key Info
+    url: /keys
 
 - title: Help
-  url: /help/
+  url: http://wiki.centos.org/Documentation?action=show&redirect=GettingHelp
