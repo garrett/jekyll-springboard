@@ -7,8 +7,10 @@
 // and before your own custom CSS, so you can easily override
 // (if you really need to).
 
+@import url('https://fonts.googleapis.com/css?family=Exo|Source+Sans+Pro')
+
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, Liberation Sans, sans-serif
+$base-font-family: Source Sans Pro, sans-serif
 $base-font-size: 16px
 $base-font-weight: 400
 $small-font-size: $base-font-size * 0.875
@@ -47,6 +49,9 @@ $nav-menu-top-text-color: #fff
 // Default blog style
 @import lib/blog.sass
 
+// Sticky footer
+@import lib/stickyfooter.sass
+
 // Navbar (check out lib/navbar.sass for customizable options)
 @import lib/navbar.sass
 
@@ -59,6 +64,14 @@ $nav-menu-top-text-color: #fff
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
+
+html
+  background: url("/images/background.jpeg")
+  background-size: stretch
+
+body
+  background-color: transparent
+  background-image: radial-gradient(ellipse at center top, rgba(32,74,135,0.8) 20%, rgba(0,0,0,0) 100%)
 
 .masthead
   box-sizing: border-box
@@ -82,9 +95,16 @@ $nav-menu-top-text-color: #fff
 
     > nav > ul > li
       text-transform: uppercase
+      font-weight: bold
+
+      > a
+        color: #999 !important
 
     ul ul
       line-height: $base-line-height
 
 .page-content
   padding-top: 7rem
+
+h1, h2, h3, h4, h5, h6
+  font-family: Exo, sans-serif
