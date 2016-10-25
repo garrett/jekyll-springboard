@@ -1,0 +1,32 @@
+- title: Get CentOS
+  url: /download/
+
+- title: About
+  url: /about/
+  nav:
+    - title: About CentOS
+      url: /about/centos/
+    - title: FAQ
+      url: /about/faq/
+      nav:
+        - title: Test1
+          url: /test1
+        - title: Test2
+          url: /test2
+
+- title: Community
+  url: /community/
+  nav:
+    - title: Contribute
+      url: /community/contribute/
+    - title: Forums
+      url: /community/forums/
+
+- title: Documentation
+  url: /docs/
+  nav:
+    - title: Wiki
+      url: /docs/wiki/
+
+- title: Help
+  url: /help/

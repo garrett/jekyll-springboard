@@ -1,0 +1,90 @@
+// Please copy default.scss to site.scss to customize your site.
+//
+// If site.scss (or site.sass) exists, then default.scss will not
+// be used. (You can then use it for reference later.)
+//
+// Be sure to `@import "minima"` after the variables needed for it
+// and before your own custom CSS, so you can easily override
+// (if you really need to).
+
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, Liberation Sans, sans-serif
+$base-font-size: 16px
+$base-font-weight: 400
+$small-font-size: $base-font-size * 0.875
+$base-line-height: 1.5
+
+$spacing-unit: 1rem
+
+$text-color: #ccc
+$background-color: #152f58
+$brand-color: #2a7ae2
+
+$grey-color: #aaa
+$grey-color-light: lighten($grey-color, 40%)
+$grey-color-dark: darken($grey-color, 25%)
+
+// Width of the content area
+$content-width: 1170px
+
+$nav-menu-color: rgba(black, 0.75)
+$nav-highlight-color: #ffaf4a
+$nav-menu-top-color: linear-gradient(to top, $nav-highlight-color 4px, $nav-menu-color 4px, transparent)
+$nav-text-color: $text-color !default
+$nav-highlight-text-color: #fff
+$nav-menu-top-text-color: #fff
+
+// Import partials from the `minima` theme.
+@import minima
+
+// Events and upcoming support. 
+// Comment out or remove if you don't use calendar or upcoming features.
+@import lib/events
+
+// Blog pagination
+@import lib/pagination.sass
+
+// Default blog style
+@import lib/blog.sass
+
+// Navbar (check out lib/navbar.sass for customizable options)
+@import lib/navbar.sass
+
+
+// Minima also includes a mixin for defining media queries.
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+
+.masthead
+  box-sizing: border-box
+  background: rgba(black, 0.4)
+  float: left
+  width: 100%
+  line-height: 45px
+  padding-left: calc((100vw - #{$content-width}) / 2)
+
+  .hgroup
+    float: left
+
+  h1
+    margin: 0
+
+  .logo
+    margin: 4px 10px 0
+
+  .nav-wrap
+    float: left
+
+    > nav > ul > li
+      text-transform: uppercase
+
+    ul ul
+      line-height: $base-line-height
+
+.page-content
+  padding-top: 7rem
