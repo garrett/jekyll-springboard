@@ -11,6 +11,15 @@
     url: http://wiki.centos.org/SpecialInterestGroup
   - title: CentOS Variants
     url: /variants/
+    nav:
+      - title: Example subnav!
+        url: /about/subnav/
+      - title: More variants
+        url: /about/variants/more/
+      - title: Even more variants
+        url: /about/variants/evenmore/
+      - title: Yet even more variants
+        url: /about/variants/evenmore/
   - title: Governance
     url: /about/governance/
 
