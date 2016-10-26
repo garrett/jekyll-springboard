@@ -64,7 +64,7 @@ nav a
   font-size: 150%
 
 header.masthead
-  background: #a40000
+  background: #a40000 url(../images/header-transparent.png) no-repeat 100% 0
 
   .logo
     height: auto
@@ -90,13 +90,28 @@ header.masthead
 
   h2
     color: #fff
-    font-size: 40px
-    line-height: 46px
-    margin: 0 20px 0 0
-    padding: 0
-    position: absolute
-    right: 0
-    top: 34px
+
+    @media screen and (min-width: $on-laptop + 1)
+      font-size: 40px
+      line-height: 46px
+      margin: 0 20px 0 0
+      padding: 0
+      position: absolute
+      right: 0
+      top: 34px
+
+  @media screen and (max-width: $on-laptop)
+    .logo
+      margin: 0
+
+    h1, h2
+      margin: 1rem
+      display: inline-block
+
+    h2
+      position: relative
+      top: 5px
+      font-size: 1.5rem
 
 .mission
   background-color: #fff7b2
