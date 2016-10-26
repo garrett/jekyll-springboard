@@ -37,6 +37,7 @@ $content-width: 80em
 
 @import lib/pagination
 @import lib/blog
+//@import lib/navbar
 
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
@@ -93,12 +94,14 @@ body
     ul, li
       padding: 0
       margin: 0
+      list-style: none
 
     a
       color: #6b6b6b
       font-size: 130%
       line-height: 1
       padding: 0.5ex 1ex
+      display: block
 
 .page-content
   @extend .col
