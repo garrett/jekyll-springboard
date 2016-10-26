@@ -70,9 +70,9 @@ CentOS would not be possible without the support of our sponsors. We would like 
 
 <!-- ---------------------------- -->
 
-<div class="grid">
-  <section class="col-12 intro">{{ intro | markdownify }}</section>
-  <section class="col-4 around ">{{ around | markdownify }}</section>
-  <section class="col-4 news ">{{ news | markdownify }}</section>
-  <section class="col-4 sponsorship ">{{ sponsorship | markdownify }}</section>
+<div class="grid frontpage">
+  <div class="col-12 intro">{{ intro | markdownify }}</div>
+  <div class="col-4_md-6_sm-12 around">{{ around | markdownify }}</div>
+  <div class="col-4_md-6_sm-12 news">{{ news | markdownify }}</div>
+  <div class="col-4_md-6_sm-12 sponsorship">{{ sponsorship | markdownify }}</div>
 </div>
