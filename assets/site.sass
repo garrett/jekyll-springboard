@@ -23,6 +23,13 @@ $border-radius: 6px
 // Width of the content area
 $content-width:    60em
 
+//$nav-color: rgba(black, 0.3)
+$nav-text-color: white
+$nav-menu-color: linear-gradient(to top, rgba(white,0.2) 6px, transparent 90%)
+$nav-active: linear-gradient(to top, #fff 6px, rgba(#fff,0.2) 6px, transparent 90%)
+
+$nav-mobile-menu: #720000
+
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -40,6 +47,7 @@ $content-width:    60em
 @import "lib/events"
 @import "lib/pagination.sass"
 @import "lib/blog.sass"
+@import "lib/navbar.sass"
 
 ///////////////////////////////////////////////////////////////////////
 
@@ -63,42 +71,13 @@ header.masthead
     width: 130px
     margin: 2rem 2rem 1.5rem
 
+  nav
+    background: rgba(black, 0.3)
+
   .hgroup,
   nav > ul
     max-width: $content-width
-
-  nav
-    background: #700
-    width: 100%
-
-    > ul
-      @extend .grid
-      margin: 0 auto
-
-      > li
-        @extend .col
-        text-align: center
-        padding: 0
-
-        &:last-child
-          flex-basis: 25%
-          text-align: right
-
-        > a
-          display: block
-          font-size: 160%
-          padding: 0 1em
-          transition: all 0.15s
-          -moz-transition: all 0.15s
-          -webkit-transition: all 0.15s
-
-        &.active
-          a
-            background: linear-gradient(to top, #fff 6px, rgba(#fff,0.2) 6px, transparent 90%)
-
-    a
-      &:link, &:visited, &:active
-        color: #fff
+    margin: 0 auto
 
 .mission
   background-color: #fff7b2
