@@ -42,7 +42,7 @@ $nav-mobile-menu: #720000
 // Import partials from the `minima` theme.
 @import "minima"
 
-// Events and upcoming support. 
+// Events and upcoming support.
 // Comment out or remove if you don't use calendar or upcoming features.
 @import "lib/events"
 @import "lib/pagination.sass"
@@ -74,10 +74,17 @@ header.masthead
   nav
     background: rgba(black, 0.3)
 
+    > ul
+      display: flex
+
+      > li:last-child
+        margin-left: auto
+
   .hgroup,
   nav > ul
     max-width: $content-width
     margin: 0 auto
+
 
 .mission
   background-color: #fff7b2
