@@ -6,7 +6,7 @@ tags: events, Gluster
 published: true
 comments: true
 ---
-![Gluster logo](blog/gluster-ant.png) The last week of January and the first week of February were packed with events and meetings.
+![Gluster logo](/images/blog/gluster-ant.png) The last week of January and the first week of February were packed with events and meetings.
 
 This blog contains my observations, opinions, and ideas in the hope that they will be useful or at least interesting for some.
 

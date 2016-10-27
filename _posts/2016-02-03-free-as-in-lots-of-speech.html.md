@@ -6,7 +6,7 @@ tags: FOSDEM, events, SCALE
 published: true
 comments: true
 ---
-![scale14x logo](blog/scale14x.png) At first blush, the [Southern California Linux Expo](https://www.socallinuxexpo.org/scale/14x) (SCaLE) and the
+![scale14x logo](/images/blog/scale14x.png) At first blush, the [Southern California Linux Expo](https://www.socallinuxexpo.org/scale/14x) (SCaLE) and the
 [Free and Open Source Software Developers' European Meeting](https://fosdem.org/2016/) (FOSDEM) would seem to be as far apart as the 5611 miles that separate them. Sure, they have some surface similarities--they are both in late January, many of the same projects are showcased at each event, and there is Linux everywhere.
 
 But look a bit past that and you will see two events that represent community within the free and open source ecosystem in sharply different ways.

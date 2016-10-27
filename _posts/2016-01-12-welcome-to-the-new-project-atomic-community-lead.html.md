@@ -6,7 +6,7 @@ tags: Project Atomic, community, OSAS
 comments: true
 published: true
 ---
-![Project Atomic logo](blog/atomic.png) The Open Source and Standards team in Red Hat is very pleased to announce the addition of its latest team member: Josh Berkus, the new Community Lead for Project Atomic.
+![Project Atomic logo](/images/blog/atomic.png) The Open Source and Standards team in Red Hat is very pleased to announce the addition of its latest team member: Josh Berkus, the new Community Lead for Project Atomic.
 
 It is probably not hyperbole to say that Josh's life is all about containers right now... almost literally. Not only is Josh taking on the new role at Red Hat for Project Atomic, which is all about managing and optimizing containers, he and his wife are in the process of transporting their residence from the Bay Area to Oregon this month--appropriately enough, using shipping containers.
 

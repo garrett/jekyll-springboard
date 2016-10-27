@@ -6,7 +6,7 @@ tags: RDO, Project Atomic, OSCON, cloud
 comments: true
 published: true
 ---
-![OSCON logo](blog/oscon-logo.jpg) It is a reasonable statement to make that most people don't enjoy moving. 
+![OSCON logo](/images/blog/oscon-logo.jpg) It is a reasonable statement to make that most people don't enjoy moving. 
 
 Packing up all of your worldly possessions into boxes, loading them up into a truck, and then driving to a new abode where the process begins again in reverse does not exactly scream fun times. As painful as the process of moving can be, though, it is essentially a standard process. You _can_ take your own stuff with you and arrange it however you see fit. 
 

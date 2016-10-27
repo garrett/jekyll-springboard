@@ -6,7 +6,7 @@ tags: oVirt, releases
 comments: true
 published: true
 ---
-![oVirt logo](blog/oVirt-logo.png) As the dust settles on LinuxCon / CloudOpen Europe 2015 and preparations are starting for FOSDEM 2016, the oVirt team has been hard at work to launch the latest iteration of oVirt, version 3.6. With features like tech previews of Docker integration and Debian support; Fedora 22 support; VirtIO Serial Console; a new Affinity Rules Enforcement Manager; and self-hosted Engine support for FibreChannel and Gluster, this is an exciting and important milestone for the oVirt project.
+![oVirt logo](/images/blog/oVirt-logo.png) As the dust settles on LinuxCon / CloudOpen Europe 2015 and preparations are starting for FOSDEM 2016, the oVirt team has been hard at work to launch the latest iteration of oVirt, version 3.6. With features like tech previews of Docker integration and Debian support; Fedora 22 support; VirtIO Serial Console; a new Affinity Rules Enforcement Manager; and self-hosted Engine support for FibreChannel and Gluster, this is an exciting and important milestone for the oVirt project.
 
 As the upstream development project for [Red Hat Enterprise Virtualization](http://www.redhat.com/en/technologies/virtualization), [UDS Enterprise](https://www.udsenterprise.com/en/), and [Wind River Open Virtualization](http://www.windriver.com/announces/open_virtualization/), oVirt’s integrated virtualization enables enterprises to manage virtual machines with a robust toolset, without the need to re-develop applications to conform to cloud platforms' APIs. oVirt also offers advanced virtualization capabilities, including high availability, live VM migration, live storage migration, the ability to self-host the oVirt engine on a managed virtual machine, and more.
 

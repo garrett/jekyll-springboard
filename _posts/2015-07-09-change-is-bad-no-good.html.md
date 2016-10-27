@@ -6,7 +6,7 @@ tags: fedora
 comments: true
 published: true
 ---
-![Fedora logo](blog/fedora-logo.png) I am a fairly agnostic person when it comes to Linux distributions. My personal philosophy is, as long as it works and has little pain associated with it, then that's the distro for me. In the past, that meant using the likes of Ubuntu, Linux Mint, and openSUSE, to name a few, and I have gone back and forth between GNOME and KDE more times than I can count.
+![Fedora logo](/images/blog/fedora-logo.png) I am a fairly agnostic person when it comes to Linux distributions. My personal philosophy is, as long as it works and has little pain associated with it, then that's the distro for me. In the past, that meant using the likes of Ubuntu, Linux Mint, and openSUSE, to name a few, and I have gone back and forth between GNOME and KDE more times than I can count.
 
 Since coming to Red Hat, naturally I have gravitated to [Fedora](https://getfedora.org/) (though I have a CentOS server humming along for oVirt demos). Right now, I'm using Fedora 22, and thus far it's been a pretty smooth run--except for one really irksome thing that is still catching me out nearly every single time:
 
@@ -36,11 +36,11 @@ And the <code>^H^H</code> is usually accompanied by some language I'd rather not
 
 I realize, of course, that this is my problem, not Fedora's. It's just been frustrating, since I don't usually have this problem switching from apt-get to yum and vice versa. The goal, then, is clear: I need to embrace change and move into the future, like I have done before. Otherwise, I would still be stuck using technology like
 
-![SoundBlaster floppy](blog/bkp/SoundBlaster-Installation.png)
+![SoundBlaster floppy](/images/blog/bkp/SoundBlaster-Installation.png)
 
 <br>or
 
-![ASCII Zebra](blog/bkp/ASCII_ART_Zebra.jpg)
+![ASCII Zebra](/images/blog/bkp/ASCII_ART_Zebra.jpg)
 
 <br>and even
 

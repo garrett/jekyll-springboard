@@ -15,7 +15,7 @@ tags:
 - RedMonk
 ---
 
-![Monktoberfest Logo](blog/monktoberfest_logo-150x150.jpg)
+![Monktoberfest Logo](/images/blog/monktoberfest_logo-150x150.jpg)
 
 Day drinking and unconventional marketing isn't just for Don Draper anymore. A couple of years ago, RedMonk's Stephen O'Grady [mused on Twitter](https://twitter.com/sogrady/statuses/38353939124461568) about doing a tech/beer conference, and received a resounding _"yes, do it"_ from the tech community. [The Monktoberfest](http://monktoberfest.com/) launched in 2011 and has drawn an impressive line-up of speakers and attendees ever year since.
 

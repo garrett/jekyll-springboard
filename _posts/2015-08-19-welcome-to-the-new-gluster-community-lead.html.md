@@ -6,7 +6,7 @@ tags: Gluster, community, OSAS
 comments: true
 published: true
 ---
-![Gluster logo](blog/antmascot.png) The Open Source and Standards team in Red Hat is very pleased to announce the addition of a new team member: Amye Scavarda, who will be taking the role of GlusterFS Community Lead.
+![Gluster logo](/images/blog/antmascot.png) The Open Source and Standards team in Red Hat is very pleased to announce the addition of a new team member: Amye Scavarda, who will be taking the role of GlusterFS Community Lead.
 
 Amye's journey to the [GlusterFS Project](http://www.gluster.org/) could arguably be said to have started when she turned away from Dreamweaver web technology in 2008 while working on large Department of Energy cleanup sites as a technologist. A Portland, OR resident, Amye was invited by a friend to look for solutions at the annual [Open Source Conference](http://www.oscon.com). It would be at OSCON that Amye would learn about the [Drupal](http://www.drupal.org) content management system.
 

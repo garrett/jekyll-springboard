@@ -6,7 +6,7 @@ tags: Linux, open source, operating system
 published: true
 comments: true
 ---
-![Tux](blog/Tux_sm.png) Later this month is the day traditionally used as the anniversary date for the Linux operating system, which got its public start with an August 25, 1991 [post to the comp.os.minux newsgroup](https://groups.google.com/forum/?fromgroups=#!msg/comp.os.minix/dlNtH7RRrGA/SwRavCzVE7gJ). This year, Linux will celebrate its 25th year of changing the world.
+![Tux](/images/blog/Tux_sm.png) Later this month is the day traditionally used as the anniversary date for the Linux operating system, which got its public start with an August 25, 1991 [post to the comp.os.minux newsgroup](https://groups.google.com/forum/?fromgroups=#!msg/comp.os.minix/dlNtH7RRrGA/SwRavCzVE7gJ). This year, Linux will celebrate its 25th year of changing the world.
 
 Linux has come a long way since those days in the latter half of 1991, and countless articles and books have been written about the impact of piece of software has had on the development of technology.
 

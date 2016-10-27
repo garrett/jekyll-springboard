@@ -6,7 +6,7 @@ author: mikey
 published: true
 comments: true
 ---
-![fosdem logo](blog/fosdem2015.png) Last month I was honored to experience my first [FOSDEM](https://fosdem.org/2016/) as a devroom manager, for the Virtualization & Infrastructure-as-a-Service room. Despite my previous experience running open source events and my experience with FOSDEM as an attendee, running a devroom was a whole new beast, due to the sheer size of the conference and the broad scope of the devroom content.
+![fosdem logo](/images/blog/fosdem2015.png) Last month I was honored to experience my first [FOSDEM](https://fosdem.org/2016/) as a devroom manager, for the Virtualization & Infrastructure-as-a-Service room. Despite my previous experience running open source events and my experience with FOSDEM as an attendee, running a devroom was a whole new beast, due to the sheer size of the conference and the broad scope of the devroom content.
 
 The 500-person room was really well-attended, with many interesting talks about areas such as KVM/QEMU, libvirt, OpenStack, oVirt, Xen, and container integrations. For the most part, we had around 80% capacity, with notable exceptions being [Containers and Virtualization](https://fosdem.org/2016/schedule/event/virt_iaas_containers_and_virtualization/) by Joe Brockmeier, which packed the room to capacity, as well as [I Find Your Lack of Threads Disturbing](https://fosdem.org/2016/schedule/event/virt_iaas_optimizing_qemu_kvm_high_iops/) by Paolo Bonzini and [Oh My! Oh My Vagrant](https://fosdem.org/2016/schedule/event/virt_iaas_oh_my_vagrant/) by James Shubin, both of which came as very close runner-ups.
 

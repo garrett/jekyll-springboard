@@ -6,7 +6,7 @@ tags: education,fabrication
 comments: true
 published: true
 ---
-![IFL logo](blog/IFL-Santa-Cruz-logo.png) Recently I’ve begun volunteering at [Idea Fab Labs here in Santa Cruz](https://santacruz.ideafablabs.com/), with two specific goals — expanding the space to include free/open source software ethos and hacking, and helping all these awesome makers with questions and reality around the open source way.
+![IFL logo](/images/blog/IFL-Santa-Cruz-logo.png) Recently I’ve begun volunteering at [Idea Fab Labs here in Santa Cruz](https://santacruz.ideafablabs.com/), with two specific goals — expanding the space to include free/open source software ethos and hacking, and helping all these awesome makers with questions and reality around the open source way.
 
 *Tip — I got quite fired-up to do this from [Ruth Suehle’s keynote at SCALE this year](https://www.youtube.com/watch?v=n1FBGWrX_n0), so go watch that if you need any reason why you should be helping maker spaces and friends with your open sourcery.*
 

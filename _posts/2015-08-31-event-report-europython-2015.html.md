@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![EuroPython logo](blog/europython-2015.png) Here is a report about some of the talks I've attended at EuroPython this July. The conference had nine tracks running in parallel, the [recordings of which are available online](https://www.youtube.com/playlist?list=PL8uoeex94UhGGUH0mFb-StlZ1WYGWiJfP).
+![EuroPython logo](/images/blog/europython-2015.png) Here is a report about some of the talks I've attended at EuroPython this July. The conference had nine tracks running in parallel, the [recordings of which are available online](https://www.youtube.com/playlist?list=PL8uoeex94UhGGUH0mFb-StlZ1WYGWiJfP).
 
 The conference was opened with a keynote by Django Girls organizers about the power of community, the progress made in just one year of Django Girls' existence, and their future plans. The slides for the presentation were illustrated with hand-drawn paintings and overall the keynote was quite inspiring.
 

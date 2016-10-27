@@ -6,7 +6,7 @@ tags: FOSDEM, events, KVM
 published: true
 comments: true
 ---
-![KVM logo](blog/kvm-logo-200.png) The KVM hypervisor has always been at or near the top of any sort of performance chart in virtualization land. But when it comes to disk input/output, things are not as always so well behaved.
+![KVM logo](/images/blog/kvm-logo-200.png) The KVM hypervisor has always been at or near the top of any sort of performance chart in virtualization land. But when it comes to disk input/output, things are not as always so well behaved.
 
 In terms of block storage, KVM can fall short in performance, because the hypervisor is tapping into the QEMU block layer, not the Linux kernel. And when large blocks come through, things can slow way down, according to Paolo Bonzini, a Senior Principal Software Engineer at Red Hat and maintainer for the [KVM Project](http://www.linux-kvm.org/page/Main_Page).
 

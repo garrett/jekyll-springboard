@@ -6,7 +6,7 @@ tags: community, open source, documentation
 comments: true
 published: true
 ---
-![bookshelves](blog/bookshelves.jpg) For those of us who write a lot, there is a certain bias for the notion that "if you don't write it down, it didn't happen." It's not just writers; as digital as our world has become, there is still a value of permanence to the written word--it's just more likely in bytes rather than paper.
+![bookshelves](/images/blog/bookshelves.jpg) For those of us who write a lot, there is a certain bias for the notion that "if you don't write it down, it didn't happen." It's not just writers; as digital as our world has become, there is still a value of permanence to the written word--it's just more likely in bytes rather than paper.
 
 In free and open source software communities, there's always a lot of stock put into the need to have written documentation of most any sort. From user guides, to feature specs, to marketing materials, a community's collective shared knowledge should not rely on the memory and experience of a few people in the community, but rather information that's freely available to all.
 

@@ -6,7 +6,7 @@ tags: oVirt, Xen, KVM
 comments: true
 published: true
 ---
-![Xen-KVM logo](blog/Xen-KVM.jpg) Born in the logic of ones and zeroes and forged in the heat of battle, two hypervisors–sworn foes in the realm of virtualization–are about to unite in a way many never thought possible. Over beer and code.
+![Xen-KVM logo](/images/blog/Xen-KVM.jpg) Born in the logic of ones and zeroes and forged in the heat of battle, two hypervisors–sworn foes in the realm of virtualization–are about to unite in a way many never thought possible. Over beer and code.
 
 Join the teams behind [Xen Project Developer Summit](http://events.linuxfoundation.org/events/xen-project-developer-summit/program/about) and [KVM Forum](http://events.linuxfoundation.org/events/kvm-forum) in Seattle as they co-host a social event that will rock the virtualization world. On August 18, 2015, at the close of the Xen Project Developer Summit and on the eve of KVM Forum, attendees of both events can come together and collaborate in the best way possible: with crudites and hors d’oeuvres (and beer).
 

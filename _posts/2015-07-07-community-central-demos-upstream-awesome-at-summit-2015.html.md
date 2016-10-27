@@ -6,7 +6,7 @@ tags: Summit, OSAS
 comments: true
 published: true
 ---
-![Tom Callaway at Fedora Booth](blog/fedorabooth2015_300.jpg) Coming out of the [Red Hat Summit](http://www.redhat.com/summit/) is a little like coming out of a euphoric whiteout of moments where you know good things happened, but you aren't exactly sure what.
+![Tom Callaway at Fedora Booth](/images/blog/fedorabooth2015_300.jpg) Coming out of the [Red Hat Summit](http://www.redhat.com/summit/) is a little like coming out of a euphoric whiteout of moments where you know good things happened, but you aren't exactly sure what.
 
 The build up alone to an event like Summit takes weeks of preparation, and for the Open Source and Standards team, it marks just the start of a summer-long season of trade shows and community events where we can show off our respective projects.
 
@@ -16,7 +16,7 @@ For OSAS, all of the action happened this year in Community Central, a large ven
 
 Leading the communities of interest this year were most certainly [Project Atomic](http://www.projectatomic.io/) and [CentOS](https://www.centos.org/), with booths that had a lot of foot traffic. Containers were a hot topic at Summit this year, and it showed for sure with a mobbed Atomic stand. The CentOS booth was also a hub of activity, as the enterprise platform's community of users took the opportunity to get some face time with the key members of the CentOS team.
 
-![Johnny Hughes Staffs the CentOS Booth](blog/centosbooth2015_600.jpg)
+![Johnny Hughes Staffs the CentOS Booth](/images/blog/centosbooth2015_600.jpg)
 
 This isn't to say other booths were ghost towns. [RDO](https://www.rdoproject.org/Main_Page), [oVirt](http://www.ovirt.org), and [ManageIQ](http://manageiq.org/) also received a lot of visitors--some seeking out information and help about these management platforms, and others just looking to learn something about these projects which were new to them. Storage users weren't going to be disappointed, either, and every time I walked by, the [Gluster](http://www.gluster.org/) and [Ceph](http://ceph.com/) booths certainly looked busy.
 
@@ -30,7 +30,7 @@ Community Central also hosted a special-guest organization, [USENIX](https://www
 
 In the center of it all was our version of community theater. No chintzy versions of "A Chorus Line" here--this theater was actually host to experts from the various projects listed above sharing with audiences what was going on with their projects and how they were integrating with other projects in the room and throughout the open source community. Of course, we couldn't help but let some of our weird humor slip through.
 
-![Bowen vs. Proffitt in a Virtual(ization) Cage Match](blog/communitytheater2015_600.JPG)
+![Bowen vs. Proffitt in a Virtual(ization) Cage Match](/images/blog/communitytheater2015_600.JPG)
 
 Overall, the event was a success for the OSAS team, since visitors were asking great questions and seemed to come away from the Community Central room with an even greater understanding of some of the upstream work Red Hat does. Which is all we could have hoped for.
 

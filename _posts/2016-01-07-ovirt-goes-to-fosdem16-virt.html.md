@@ -6,7 +6,7 @@ tags: oVirt, FOSDEM, events
 comments: true
 published: true
 ---
-![oVirt logo](blog/oVirt-logo.png) With [FOSDEM 2016](https://fosdem.org/2016/) just a few short weeks away, here are all the details about our community activities during the conference.
+![oVirt logo](/images/blog/oVirt-logo.png) With [FOSDEM 2016](https://fosdem.org/2016/) just a few short weeks away, here are all the details about our community activities during the conference.
 
 As previously mentioned in [this blog post](http://community.redhat.com/blog/2015/12/fosdem16-virt-iaas-devroom-schedule-published/), the devroom schedule is available on the [FOSDEM website](https://fosdem.org/2016/schedule/track/virtualisation_and_iaas/). We have some great presentations from our community members, with something for everyone to learn from and enjoy throughout both days of the conference.
 

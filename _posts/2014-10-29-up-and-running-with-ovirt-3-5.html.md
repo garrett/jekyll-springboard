@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-[![](blog/oVirt-logo.png){:align="right"}](http://www.ovirt.org)
+[![](/images/blog/oVirt-logo.png){:align="right"}](http://www.ovirt.org)
 Last week, version 3.5 of oVirt, the open source virtualization management system, [hit FTP mirrors](http://lists.ovirt.org/pipermail/announce/2014-October/000138.html) sporting a slate of fixes and enhancements, including a new-look user interface, and support for using CentOS 7 machines as virtualization hosts.
 
 As with every new oVirt release, I'm here to suggest a path to getting up and running with the project on single server, with an option for expanding to additional machines in the future. First, though, a quick rundown of the different single-machine options for trying out oVirt:
@@ -164,7 +164,7 @@ Follow along with the script, answering its questions. The default answers are f
 My NFS path looks like `ovirtmount.osas.lab:/engine`. I'm using that secondary host name I mentioned earlier in the howto, the hosting of which will, in the next post, be shared among my virt+storage machines.
 
 
-![](blog/ovirt34-deploy-host-1.png){:align="center"}
+![](/images/blog/ovirt34-deploy-host-1.png){:align="center"}
 
 Once you've supplied all these answers, and confirmed your choices, the installer will launch a VM and provide you with an address and password for accessing the VM with the vnc client of your choice. Fire up a vnc client, enter the address provided and enter the password provided to access the VM.
 
@@ -172,7 +172,7 @@ From here, you can click your way through the installation of your engine-hostin
 
 When the OS installation on your new VM is complete, head back to the terminal window where `hosted-engine --deploy` is running, and hit enter to let the script know that you're ready for the next step.
 
-![](blog/ovirt34-deploy-host-1b.png){:align="center"}
+![](/images/blog/ovirt34-deploy-host-1b.png){:align="center"}
 
 The VM will reboot, and when it's back up, it's time to install oVirt engine. Either through vnc or through an ssh session (ssh is nicer for copying and pasting commands), access your newly-created VM, and ensure that everything is in order.
 
@@ -193,7 +193,7 @@ Next, we'll install and then set up ovirt-engine:
 # engine-setup
 ```
 
-![](blog/ovirt34-configure-engine-1.png){:align="center"}
+![](/images/blog/ovirt34-configure-engine-1.png){:align="center"}
 
 Go through the engine-setup script, answering its questions. You'll be fine accepting all the default answers, but make sure to supply the same admin password that you chose earlier, while running `hosted-engine --deploy`.
 
@@ -201,7 +201,7 @@ When the installation process completes, head back to the terminal where you're 
 
 The installer will register itself as a virtualization host on the oVirt engine instance we've just installed. Once this completes, the installer will tell you to shut down your VM so that the ovirt-engine-ha services on the first host can restart the engine VM as a monitored service.
 
-![](blog/ovirt34-configure-engine-1a.png){:align="center"}
+![](/images/blog/ovirt34-configure-engine-1a.png){:align="center"}
 
 It can take a few minutes for the HA services to notice that the engine is down, to check that there's a machine available to host the engine, and to start up the hosted engine VM. You can watch these services do their thing by tailing their log files:
 
@@ -219,7 +219,7 @@ Click "New Domain," give your new domain a name, and choose Data / GlusterFS fro
 
 In the "Export Path" field, enter the remote path to your Gluster volume, and hit the OK button to proceed. It'll take a bit of time for your new storage domain to initialize and come online, but once it does, you'll be ready to launch your first VM.
 
-![](blog/ovirt34-configure-storage-1.png){:align="center"}
+![](/images/blog/ovirt34-configure-storage-1.png){:align="center"}
 
 ## Running your first VM
 
@@ -227,23 +227,23 @@ Since version 3.4, oVirt engine has come pre-configured with a public Glance ins
 
 From the storage tab, you should see an "ovirt-image-repository" entry next to a little OpenStack logo. Clicking on this domain will bring up a menu of images available in this repository. Click on the "CirrOS" image (which is very small and perfect for testing) in the list and then click "Import," before hitting the OK button in the pop-up dialog to continue.
 
-![](blog/ovirt34-run-vm-1.png){:align="center"}
+![](/images/blog/ovirt34-run-vm-1.png){:align="center"}
 
 The image will be copied from the oVirt project's public Glance repository to the storage domain you just configured, where it will be available as a disk to attach to a new VM. In the import image dialog, you have the option of clicking the "Import as Template" check box to give yourself the option of basing multiple future VMs on this image using oVirt's templates functionality.
 
 Next, head to the "Virtual Machines" tab in the console, click "New VM," choose "Linux" from the "Operating System" drop down menu, supply a name for your VM, and choose the "ovirtmgmt/ovirtmgmt" network in the drop down menu next to "nic1" before hitting the "OK" button. For additional configuration, such as setting RAM and CPU values and using cloud-init, there's a "Show Advanced Options" button in the dialog, but you can revisit that later.
 
-![](blog/ovirt34-run-vm-1a.png){:align="center"}
+![](/images/blog/ovirt34-run-vm-1a.png){:align="center"}
 
 Next you'll get a "Guide Me" dialog box that will ask you to configure a virtual disk. Click the "Configure Virtual Disks" button, check the "Attach Disk" box at the upper left part of the dialog, select the Glance disk image we just downloaded, and hit the "OK" button to continue. Dismiss the "Guide Me" dialog by hitting the "Configure Later" button.
 
-![](blog/ovirt34-run-vm-1b.png){:align="center"}
+![](/images/blog/ovirt34-run-vm-1b.png){:align="center"}
 
-![](blog/ovirt34-run-vm-1c.png){:align="center"}
+![](/images/blog/ovirt34-run-vm-1c.png){:align="center"}
 
 Now, back at the Virtual Machines list, right-click your new VM, and choose "Run" from the menu. After a few moments, the status of your new VM will switch from red to green, and you'll be able to click on the green monitor icon next to “Migrate” to open a console window and access your VM.
 
-![](blog/ovirt34-run-vm-1d.png){:align="center"}
+![](/images/blog/ovirt34-run-vm-1d.png){:align="center"}
 
 
 ## Till next time

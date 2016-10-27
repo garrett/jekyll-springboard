@@ -7,7 +7,7 @@ published: true
 comments: true
 ---
 
-[![](blog/oVirt-logo.png){:align="right"}](http://www.ovirt.org)
+[![](/images/blog/oVirt-logo.png){:align="right"}](http://www.ovirt.org)
 Two weeks ago in this space, I [wrote about](/blog/2014/10/up-and-running-with-ovirt-3-5/) how to deploy the virtualization, storage, and management elements of the new oVirt 3.5 release on a single machine. Today, we're going to add two more machines to the mix, which will enable us to bring down one machine at a time for maintenance while allowing the rest of the deployment to continue its virtual machine hosting duties uninterrupted.
 
 We'll be configuring two more machines to match the system we set up in [part one](/blog/2014/10/up-and-running-with-ovirt-3-5/), installing and configuring [CTDB](https://ctdb.samba.org/) to provide HA failover for the nfs share where the hosted engine lives, and expanding our single brick gluster volumes to replicated volumes that will span all three of our hosts.

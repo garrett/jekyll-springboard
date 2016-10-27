@@ -6,7 +6,7 @@ tags: open source, community, education
 published: true
 comments: true
 ---
-![LinuxCon Logo](blog/LinuxCon.jpg) The kid was the western suburbs of Pittsburgh, strolling up to the Red Hat booth on day two of LinuxCon North America with his dad in tow. 17 and a senior at West Allegheny High School in Imperial, PA, this young man had an interest in studying computer science and had come to LinuxCon with his father to get the lay of the land.
+![LinuxCon Logo](/images/blog/LinuxCon.jpg) The kid was the western suburbs of Pittsburgh, strolling up to the Red Hat booth on day two of LinuxCon North America with his dad in tow. 17 and a senior at West Allegheny High School in Imperial, PA, this young man had an interest in studying computer science and had come to LinuxCon with his father to get the lay of the land.
 
 At this point, you might think the story would be about how we walked this young man through all of the different education options Red Hat participates in, including our [University Outreach](https://www.redhat.com/en/about/open-source-education) and Red Hat internship programs, and he left with a glowing confidence about the open source future before him. And indeed, that is pretty much part of what went down: my colleague Tom Callaway spoke at length with this student about those very topics. But while Tom was shaping future minds, I also had an interesting discussion of my own with the boy's father.
 

@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![](blog/centosdojo_fosdem.jpg) On the Friday before FOSDEM, we gathered at the IBM offices in
+![](/images/blog/centosdojo_fosdem.jpg) On the Friday before FOSDEM, we gathered at the IBM offices in
 Brussels for the [CentOS Dojo](http://wiki.centos.org/Events/Dojo/Brussels2015). 
 
 This morning, Haikel Guemar led a hands-on

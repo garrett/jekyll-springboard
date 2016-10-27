@@ -8,7 +8,7 @@ comments: true
 published: true
 ---
 
-![](blog/fosdem2015.png) For the first time, [FOSDEM](http://www.fosdem.org) will include [a dedicated track](https://fosdem.org/2015/schedule/track/network_management_and_sdn/)
+![](/images/blog/fosdem2015.png) For the first time, [FOSDEM](http://www.fosdem.org) will include [a dedicated track](https://fosdem.org/2015/schedule/track/network_management_and_sdn/)
 for networking. The DevRoom covers two distinct topics: network management (the configuration of host-level networking, such as VPNS, and ethernet and wifi connections) and SDN (Software Defined Networking, the management of networking in large networks, including routing and switching traffic, and enforcing network policy).
 
 Software Defined Networking

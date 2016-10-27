@@ -6,7 +6,7 @@ tags: Fedora
 comments: false
 published: true
 ---
-![FUDCon Pune logo](blog/fudcon_pune.png) _FUDCon is the Fedora Users and Developers Conference, a major free software event held in various regions around the world, usually annually per region. Kushal Das has blogged about his experiences at the latest FUDCon in Pune, India:_
+![FUDCon Pune logo](/images/blog/fudcon_pune.png) _FUDCon is the Fedora Users and Developers Conference, a major free software event held in various regions around the world, usually annually per region. Kushal Das has blogged about his experiences at the latest FUDCon in Pune, India:_
 
 I don’t remember when I called Siddhesh for the first time to talk about organising FUDCon in India this year. But the discussion started, at first I wanted to bid with Durgapur as the venue. But after some discussion, we agreed that Pune is a better place in many cases which we want in a venue for FUDCon.
 

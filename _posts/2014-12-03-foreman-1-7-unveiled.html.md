@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![](blog/foreman.png) December brings a new major release of Foreman, the systems management
+![](/images/blog/foreman.png) December brings a new major release of Foreman, the systems management
 tool incorporating provisioning and config management support, with a
 range of new features and fixes.
 

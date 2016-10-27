@@ -6,7 +6,7 @@ tags: oVirt, FOSSAsia
 comments: true
 published: true
 ---
-![caution sign](blog/caution1.jpg) Case studies about open source project participants and users are a great way to showcase your project and how it works in the real world. Such studies will highlight interesting features of your software, demonstrate different (and potentially unique) ways your project is in use, and foster positive communication among members of your community.
+![caution sign](/images/blog/caution1.jpg) Case studies about open source project participants and users are a great way to showcase your project and how it works in the real world. Such studies will highlight interesting features of your software, demonstrate different (and potentially unique) ways your project is in use, and foster positive communication among members of your community.
 
 Case studies are also about transparency: while talking to the end user of your software, you can also learn about things that are not necessarily running smoothly in your project. And while no one loves to hear about the things that are going wrong, such feedback can also be invaluable to you and your team.
 

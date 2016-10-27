@@ -6,7 +6,7 @@ tags: community, advocacy
 comments: true
 published: true
 ---
-![Football Goal](blog/goal.jpg) I was recently asked what a community manager does in a technical development community. My answer is, the community manager's job is to  help the project have:
+![Football Goal](/images/blog/goal.jpg) I was recently asked what a community manager does in a technical development community. My answer is, the community manager's job is to  help the project have:
 
 > **More, happier, engaged users.**
 

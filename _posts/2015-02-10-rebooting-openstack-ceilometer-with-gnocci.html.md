@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![](blog/rdo-logo.png)Yesterday, Eoghan Glynn led a Hangout to discuss the work around rebooting the OpenStack Ceilometer project, using the new approaches of the Gnocci project.
+![](/images/blog/rdo-logo.png)Yesterday, Eoghan Glynn led a Hangout to discuss the work around rebooting the OpenStack Ceilometer project, using the new approaches of the Gnocci project.
 
 As you may remember, we talked about some of these ideas back in July in a [podcast with Eoghan](http://community.redhat.com/blog/2014/07/upstream-podcast-episode-10-rich-bowen-with-eoghan-glynn-on-openstack-juno/), and a lot of progress has been made toward those goals since then.
 

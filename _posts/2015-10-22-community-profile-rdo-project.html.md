@@ -6,7 +6,7 @@ tags: RDO, profile, community
 comments: true
 published: true
 ---
-![RDO logo](blog/rdo-logo.png)
+![RDO logo](/images/blog/rdo-logo.png)
 
 **Community Profile:** RDO Project<br>
 **Name:** RDO<br>

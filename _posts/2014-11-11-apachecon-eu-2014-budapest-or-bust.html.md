@@ -7,7 +7,7 @@ published: true
 comments: true
 ---
 
-![](blog/ApacheConBudapest.png)Look for us next week, November 17-21, at [ApacheCon EU](http://events.linuxfoundation.org/events/apachecon-europe) in Budapest, where we'll be giving a variety of Apache-angled talks:
+![](/images/blog/ApacheConBudapest.png)Look for us next week, November 17-21, at [ApacheCon EU](http://events.linuxfoundation.org/events/apachecon-europe) in Budapest, where we'll be giving a variety of Apache-angled talks:
 
 ## Monday, November 17
 

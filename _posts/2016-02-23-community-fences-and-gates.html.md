@@ -6,7 +6,7 @@ tags: community, documentation
 published: true
 comments: true
 ---
-![Admin Cat](blog/bkp/gate.jpg) One of the great pleasures in my career has been teaching at the Mendoza College of Business at the University of Notre Dame. There's nothing like teaching IT concepts to business students and seeing the light bulb go off when they see the potential of technology in their work.
+![Admin Cat](/images/blog/bkp/gate.jpg) One of the great pleasures in my career has been teaching at the Mendoza College of Business at the University of Notre Dame. There's nothing like teaching IT concepts to business students and seeing the light bulb go off when they see the potential of technology in their work.
 
 Occasionally, I will get a request from a student or student assistant for a reference. Sometimes for a foreign exchange program or sometimes for a job. This week, one of my former assistants asked me to be a reference for him at a non-profit organization in Chicago for which he wants to volunteer.  I agreed immediately, naturally, but it struck me as a little disappointing that someone has to jump through the hurdle of getting a reference just because he wants to volunteer to help people.
 

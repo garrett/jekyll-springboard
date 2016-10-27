@@ -11,7 +11,7 @@ tags:
 categories:
 - Blog
 ---
-![](blog/manageiq-vertical.png)
+![](/images/blog/manageiq-vertical.png)
 We are thrilled to announce that Aaron Patterson ([@tenderlove](http://twitter.com/tenderlove)) has joined the ManageIQ team.
 
 Aaron is the only engineer in the world who is on the core Ruby and core Rails teams. He is the author of [Nokogiri](http://nokogiri.org/) (XML parser), [Psych](https://github.com/tenderlove/psych) (YAML parser) and has improved ActiveRecord substantively in usability and performance.

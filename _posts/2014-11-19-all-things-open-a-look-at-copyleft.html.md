@@ -8,7 +8,7 @@ comments: true
 published: true
 ---
 
-![](blog/allthingsopen_sm.png) I have a somewhat embarrassing admission: I've been working in (or at least near) open source software for a little more than two years and, before [All Things Open](http://allthingsopen.org/) last month, I didn't really understood the subtleties around different types of open source licenses.
+![](/images/blog/allthingsopen_sm.png) I have a somewhat embarrassing admission: I've been working in (or at least near) open source software for a little more than two years and, before [All Things Open](http://allthingsopen.org/) last month, I didn't really understood the subtleties around different types of open source licenses.
 
 I wasn't a total IP ignoramous. I even took a graduate-level class in media law while I was in journalism school and we covered copyright in *great* detail. So, I understood that according to US law, everything was copyrighted upon creation (or more accurately, when fixed in a set medium). And I understood that there were open source licenses that essentially released works from copyright.
 

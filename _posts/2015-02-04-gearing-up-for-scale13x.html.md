@@ -8,7 +8,7 @@ comments: true
 published: true
 ---
 
-![](blog/scale13x.png) FOSDEM is over, but a bunch of us are still in Europe this week for [Infrastructure.Next](http://community.redhat.com/events/#infranext-ghent), which is going on today in Ghent, and [DevConf.cz](http://community.redhat.com/events/#devconfcz) in Brno this weekend. Planning ahead for later this month, you'll find a bunch of us in sunny Los Angeles for the Thirteenth Annual Southern California Linux Expo (a.k.a., [SCALE13x](http://www.socallinuxexpo.org/scale/13x)). You'll see us on the expo floor, at the [Infrastructure.Next](http://www.socallinuxexpo.org/scale/13x/infrastructurenext) event, and giving lots of talks:
+![](/images/blog/scale13x.png) FOSDEM is over, but a bunch of us are still in Europe this week for [Infrastructure.Next](http://community.redhat.com/events/#infranext-ghent), which is going on today in Ghent, and [DevConf.cz](http://community.redhat.com/events/#devconfcz) in Brno this weekend. Planning ahead for later this month, you'll find a bunch of us in sunny Los Angeles for the Thirteenth Annual Southern California Linux Expo (a.k.a., [SCALE13x](http://www.socallinuxexpo.org/scale/13x)). You'll see us on the expo floor, at the [Infrastructure.Next](http://www.socallinuxexpo.org/scale/13x/infrastructurenext) event, and giving lots of talks:
 
 READMORE
 

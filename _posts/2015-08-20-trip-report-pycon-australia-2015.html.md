@@ -6,7 +6,7 @@ tags: Python,events
 comments: true
 published: true
 ---
-![PyCon Australia logo](blog/pyconaustralia2015.png) Since Red Hat was a platinum sponsor of PyCon Australia 2015, we had quite a few people attending the conference. Here is a write up of how some of our team experienced the conference.
+![PyCon Australia logo](/images/blog/pyconaustralia2015.png) Since Red Hat was a platinum sponsor of PyCon Australia 2015, we had quite a few people attending the conference. Here is a write up of how some of our team experienced the conference.
 
 READMORE
 
@@ -44,7 +44,7 @@ Chris Neugebauer gave us a hint of the future in his talk about [optional type l
 
 Like R&oacute;man, I thought the conference was also a great opportunity to meet other people in the Python community and hear about what they are working on. I'm looking forward to hopefully attending again in 2016.
 
-![PyCon photo 2](blog/PyConAustPhoto2.jpg)
+![PyCon photo 2](/images/blog/PyConAustPhoto2.jpg)
 
 ### Sunil Thaha
 
@@ -80,4 +80,4 @@ I had a follow-up chat with Simone to understand their pipeline better and how t
 
 * [To AST and Beyond - Curtis Maloney](https://www.youtube.com/watch?v=N_Q3i3oaZ6w) was interesting mostly because it was geeky and shows how to create a DSL in Python.
 
-![PyCon photo 3](blog/PyConAustPhoto3.jpg)
+![PyCon photo 3](/images/blog/PyConAustPhoto3.jpg)

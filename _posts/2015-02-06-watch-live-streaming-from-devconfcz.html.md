@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![](blog/devconf_key2.png) If you wanted to attend [DevConf.cz](http://www.devconf.cz/) in Brno this week, but couldn't make it there in person, you're in luck. The event is live streaming from some of the sessions, and video archives are available on the [RedHatCzech YouTube channel](https://www.youtube.com/user/RedHatCzech). 
+![](/images/blog/devconf_key2.png) If you wanted to attend [DevConf.cz](http://www.devconf.cz/) in Brno this week, but couldn't make it there in person, you're in luck. The event is live streaming from some of the sessions, and video archives are available on the [RedHatCzech YouTube channel](https://www.youtube.com/user/RedHatCzech). 
 
 The event started today and runs until [Sunday afternoon](http://www.devconf.cz/schedule), and the schedule includes lots of tech talks [focused on our upstream projects](http://community.redhat.com/blog/2015/01/find-us-at-developer-conference-2015/).
 Tim Burke's opening keynote and a few other talks are already online:

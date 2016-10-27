@@ -10,7 +10,7 @@ tags:
 categories:
 - Blog
 ---
-![](blog/CentOS_200x.png)
+![](/images/blog/CentOS_200x.png)
 Just in case you've missed it, the [CentOS](http://www.centos.org/) team [announced the general availability](http://lists.centos.org/pipermail/centos-announce/2014-July/020393.html) of the first CentOS-7 release.
 
 This is the first major release from the CentOS Project since it [joined forces with Red Hat](/blog/2014/01/red-hat-and-centos-join-forces/), and it's pretty exciting to see what the team has accomplished so far. 

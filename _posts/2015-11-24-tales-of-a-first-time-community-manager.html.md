@@ -33,7 +33,7 @@ Painting with very broad brush-strokes, an open source community can have four d
  *  **External developers**. Anyone who builds on your project as a platform&mdash;this will include anyone who packages your software and integrates it with their platform to deliver it to their users, or ISVs who build on top of the platform, or vendors who embed your project into their offerings. These people are economically motivated to see the project do well, but may not consider themselves part of the community.
  *  **Target audience**. This is your growth vector for your user community - people who have a problem your software solves, but who are either unaware of your project, or have not tried it yet.
 
-![Gradient Graphic](blog/Community_gradient.png)
+![Gradient Graphic](/images/blog/Community_gradient.png)
 
 These categories blend into each other, as people get more and more engaged in your project&mdash;for example, when a developer engages your project for the first time to make a change, they are neither a core developer or a completely independent observer, and similarly when a casual user uses your software, but has no contact with your community, they are more than just part of your target audience.
 

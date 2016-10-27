@@ -6,7 +6,7 @@ tags: FOSDEM, community, events
 comments: true
 published: true
 ---
-![bookshelves](blog/fosdem2015.png) The organizing team of the Virtualization & Infrastructure-as-a-Service devroom at the upcoming FOSDEM 2016 in Brussels is pleased to announce the talk selection process is complete and the session schedule is now available on the [FOSDEM website](https://fosdem.org/2016/schedule/track/virtualisation_and_iaas/).
+![bookshelves](/images/blog/fosdem2015.png) The organizing team of the Virtualization & Infrastructure-as-a-Service devroom at the upcoming FOSDEM 2016 in Brussels is pleased to announce the talk selection process is complete and the session schedule is now available on the [FOSDEM website](https://fosdem.org/2016/schedule/track/virtualisation_and_iaas/).
 
 This year will mark FOSDEM’s sixteenth anniversary as one of the longest-running free and open source software developer events, expected to attract more than 5,000 developers and users from all over the world. It will be held once again in Brussels, Belgium, on January 30 & 31, 2016.
 

@@ -8,7 +8,7 @@ categories:
 - Blog
 ---
 
-![](blog/osconbooth.png)
+![](/images/blog/osconbooth.png)
 Watching how technology-related events have handled issues around diversity and the inclusion of women in recent years is like watching someone practice piano: it isn't perfect, but you can see and appreciate the effort being put into it. You also can hope that as awkward as it is now, if the effort continues, eventually we won't need to *think* about women at tech conferences.
 
 Attending OSCON this year felt a little like watching a pianist play a piece that he's beginning to get the hang of. Women were present and they were speaking on topics other than how to treat women in tech. I attended Ruth Suehle's [Raspberry Pi Hacks](http://www.oscon.com/oscon2014/public/schedule/detail/34018) talk and it's a good thing I showed up early because the room was full to capacity. Other women presented technical talks on a range of topics, including: [SWI-Prolog for the Real World](http://www.oscon.com/oscon2014/public/schedule/detail/34273) (Anne Ogborn), [Kraken.js](http://www.oscon.com/oscon2014/public/schedule/detail/33937) (Poornima Venkatakrishnan), [Debugging Lamp Apps](http://www.oscon.com/oscon2014/public/schedule/detail/33687) (Jess Portnoy), and many more.

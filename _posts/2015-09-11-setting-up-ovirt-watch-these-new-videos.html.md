@@ -6,7 +6,7 @@ tags: oVirt, tutorials
 comments: true
 published: true
 ---
-![oVirt logo](blog/oVirt-logo.png) One of the really great things about working with communities is when you wake up one morning and find someone has generously donated their time and effort to deliver something that benefits all.
+![oVirt logo](/images/blog/oVirt-logo.png) One of the really great things about working with communities is when you wake up one morning and find someone has generously donated their time and effort to deliver something that benefits all.
 
 In this case, oVirt has Wesley Morais de Oliveira to thank for releasing  a set of 10 videos detailing the basic steps for setting up and configuring oVirt. This includes the oVirt Engine as well as oVirt Node.
 

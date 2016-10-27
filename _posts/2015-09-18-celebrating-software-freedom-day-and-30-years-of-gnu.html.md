@@ -6,7 +6,7 @@ tags: free software, open source, community, Fedora
 comments: true
 published: true
 ---
-![SFD Logo](blog/SFD.png) September 19 is a significant day for those of us who work and play in the world of free and open source software (FLOSS). [Software Freedom Day](http://www.softwarefreedomday.org/), a global celebration of FLOSS falls on this date, with this year being even more significant, because this month also marks [the 30th anniversary of GNU](https://www.gnu.org/gnu30/)!
+![SFD Logo](/images/blog/SFD.png) September 19 is a significant day for those of us who work and play in the world of free and open source software (FLOSS). [Software Freedom Day](http://www.softwarefreedomday.org/), a global celebration of FLOSS falls on this date, with this year being even more significant, because this month also marks [the 30th anniversary of GNU](https://www.gnu.org/gnu30/)!
 
 It is, at a certain level, pretty amazing: the choice to share software and see it built freely for its own sake has influenced innovation within IT for three decades. Technologies like cloud computing, big data, containers... these all were successful not in spite of FLOSS, but because of it. Free software has has a personal effect on its practitioners as well.
 

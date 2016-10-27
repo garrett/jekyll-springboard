@@ -6,7 +6,7 @@ tags: open source, development, education
 published: true
 comments: true
 ---
-![git Logo](blog/git_logo.png) Much of what we do on the Open Source and Standards team is focused on community growth, on the premise that a growing community, by and large, is a healthy one.
+![git Logo](/images/blog/git_logo.png) Much of what we do on the Open Source and Standards team is focused on community growth, on the premise that a growing community, by and large, is a healthy one.
 
 Growing a community is never as simple as throwing out your code for the world to see and letting your code's awesomeness speak for itself. You can build the coolest application on the planet and still have problems getting people to help you with it, even if you have a sparkling personality.
 

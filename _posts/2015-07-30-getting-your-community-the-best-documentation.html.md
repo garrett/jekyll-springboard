@@ -6,7 +6,7 @@ tags: documentation
 comments: false
 published: true
 ---
-![Open Help logo](blog/openhelp.png) _The 2015 [Open Help Conference & Sprints](https://conf.openhelp.cc/) takes place September 26-30 in downtown Cincinnati, Ohio. Our own Shaun McCance recently outlined some of the best practices in managing your own documentation sprints._
+![Open Help logo](/images/blog/openhelp.png) _The 2015 [Open Help Conference & Sprints](https://conf.openhelp.cc/) takes place September 26-30 in downtown Cincinnati, Ohio. Our own Shaun McCance recently outlined some of the best practices in managing your own documentation sprints._
 
 Sprints are one of the most effective tools for building momentum and community around an open source documentation project. For the past four years, the Open Help Conference & Sprints has hosted doc sprints for a number of prominent open source projects, and often has been the first sprint venue for a project. Open Help celebrates its fifth year in 2015 with a venue upgrade and space for six doc sprints.
 

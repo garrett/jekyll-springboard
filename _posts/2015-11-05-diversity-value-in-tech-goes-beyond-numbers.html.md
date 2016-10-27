@@ -6,7 +6,7 @@ tags: gender, race, diversity
 comments: true
 published: true
 ---
-![Women in Open Source Logo](blog/WOS_logo1-xsm.gif) A special session of the recent All Things Open conference presented a screening of the documentary, [CODE: Debugging the Gender Gap](http://www.codedocumentary.com/). Knowing that Red Hat has a [strong interest in diversity recruiting](http://www.redhat.com/en/about/blog/diversity-and-our-business), I decided to attend. It was a good decision; I was in awe after only minutes into the documentary.
+![Women in Open Source Logo](/images/blog/WOS_logo1-xsm.gif) A special session of the recent All Things Open conference presented a screening of the documentary, [CODE: Debugging the Gender Gap](http://www.codedocumentary.com/). Knowing that Red Hat has a [strong interest in diversity recruiting](http://www.redhat.com/en/about/blog/diversity-and-our-business), I decided to attend. It was a good decision; I was in awe after only minutes into the documentary.
 
 For example, did you know that there are three times as many software engineers needed than the number of software engineers actually being produced? Part of the reason for this huge need comes from the lack of women in the IT field. As tech companies began to disclose the lack of diversity in their organizations, the results were not pretty.
 

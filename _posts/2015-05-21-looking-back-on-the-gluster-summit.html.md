@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![Gluster logo](blog/gluster-ant.png)On May 12 and 13th, the Gluster contributor community came together to discuss the state of Gluster and the plans for the future in sunny Barcelona, Spain. We had 32 active contributors present and 21 presentations. We discussed a wide range of material, mostly focused around the next major release of Gluster, 4.0, but also had discussions on improving testing, maintenance, community growth, documentation, and the website. 
+![Gluster logo](/images/blog/gluster-ant.png)On May 12 and 13th, the Gluster contributor community came together to discuss the state of Gluster and the plans for the future in sunny Barcelona, Spain. We had 32 active contributors present and 21 presentations. We discussed a wide range of material, mostly focused around the next major release of Gluster, 4.0, but also had discussions on improving testing, maintenance, community growth, documentation, and the website. 
 
 Attendees were also treated to fine local sights and food, courtesy of our sponsors: Red Hat, Facebook, Datalab.es, and Barcelona iCapital. We even had a special introduction from Eduard Martin, the Innovation Director from the Societat del Coneixement i Arquitectures TIC in Institut Municipal d'Informatica, Barcelona.
 

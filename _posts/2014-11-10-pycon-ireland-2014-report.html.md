@@ -7,9 +7,9 @@ published: true
 comments: true
 ---
 
-![](blog/pyconie-logo.jpg) Now in its fifth year, [PyCon Ireland](http://python.ie/pycon/2014) is an annual conference organized by the Python Ireland community. Like the previous year, the weekend conference was held in Dublin and included a healthy mix of talks and workshops. Two days of sprints on projects such as Django and PyPy followed. Over the years, and most notably this year, the content has evolved from covering low-level implementation details, to higher-level applications of Python and the plethora of modules now available. 
+![](/images/blog/pyconie-logo.jpg) Now in its fifth year, [PyCon Ireland](http://python.ie/pycon/2014) is an annual conference organized by the Python Ireland community. Like the previous year, the weekend conference was held in Dublin and included a healthy mix of talks and workshops. Two days of sprints on projects such as Django and PyPy followed. Over the years, and most notably this year, the content has evolved from covering low-level implementation details, to higher-level applications of Python and the plethora of modules now available. 
 
-Many companies, including Red Hat, sponsored the event, and given the interactions at the booths and the various recruiter talks, the job market seems vibrant and competitive for Python developers. More than 350 people attended this year, and the conference once again sold out in advance. ![](blog/pyconie_keynote.jpg){:align=right}
+Many companies, including Red Hat, sponsored the event, and given the interactions at the booths and the various recruiter talks, the job market seems vibrant and competitive for Python developers. More than 350 people attended this year, and the conference once again sold out in advance. ![](/images/blog/pyconie_keynote.jpg){:align=right}
 
 The keynotes covered a variety of topics. On Saturday the opening talk by [Ian Ozswald](http://youtu.be/V1HkaTQYN54) included a rant about how hard and annoying cleaning input data is, a sentiment echoed by multiple speakers who also complained about wrong units, badly encoded strings, and the fact the booleans can be True and False, but also Unreadable. 
 

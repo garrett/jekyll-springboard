@@ -6,7 +6,7 @@ tags: CentOS, profile, community
 comments: true
 published: true
 ---
-![CentOS Logo](blog/CentOS_200x.png) **Community Profile:** CentOS Project<br>
+![CentOS Logo](/images/blog/CentOS_200x.png) **Community Profile:** CentOS Project<br>
 **Name:** CentOS [Community Enterprise Operating System] Project<br>
 **Initial release:** May, 2004<br>
 **Project Lead:** Karanbir Singh<br>

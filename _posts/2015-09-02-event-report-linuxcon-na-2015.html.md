@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![LF logo](blog/lfsquare.jpg) Pretty much going to go out on limb here and make the call: if you didn't find something that interested you at this year's pantheon of LinuxCon North America events, then you may want to start using Windows. Except Microsoft was there too, so you're out of luck. And Apple, so just settle down.
+![LF logo](/images/blog/lfsquare.jpg) Pretty much going to go out on limb here and make the call: if you didn't find something that interested you at this year's pantheon of LinuxCon North America events, then you may want to start using Windows. Except Microsoft was there too, so you're out of luck. And Apple, so just settle down.
 
 The list or speakers and sponsors was varied, to be sure, no less so than the visitor roll call. But the real variety was marked by the sheer number of events the [Linux Foundation](http://linuxfoundation.org) hosted in the Seattle Sheraton during the week of August 16.
 

@@ -6,7 +6,7 @@ tags: community, open source, open standards, open data
 comments: true
 published: true
 ---
-![Kanban board](blog/bkp/kanban.jpg) As 2015 wraps up, one of the things we are doing in the Open Source and Standards group is looking for new tools that can help us do our jobs better. But it might surprise you to learn that even within OSAS, it's not a 100% given that every piece of software we consider is open source or free software.
+![Kanban board](/images/blog/bkp/kanban.jpg) As 2015 wraps up, one of the things we are doing in the Open Source and Standards group is looking for new tools that can help us do our jobs better. But it might surprise you to learn that even within OSAS, it's not a 100% given that every piece of software we consider is open source or free software.
 
 Recently, one of the tools we were looking at was software to help us track tasks created by us and also submitted to us by various open source projects within and without the Red Hat ecosystem. What good is an organization like OSAS if we can't openly share our resources and expertise with all free and open source software communities?
 

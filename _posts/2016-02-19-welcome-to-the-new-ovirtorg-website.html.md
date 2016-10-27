@@ -7,7 +7,7 @@ published: true
 comments: true
 ---
 
-![oVirt logo](blog/ovirt-logo.png) As part of their efforts to upgrade the [ovirt.org website](http://www.ovirt.org) and improve the community experience, the oVirt community has migrated the oVirt website from a MediaWiki site to a static site, authored in [Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/) and published with [Middleman](https://middlemanapp.com/). This was a major project that took more than six months and involved many contributors from all aspects of the project.
+![oVirt logo](/images/blog/ovirt-logo.png) As part of their efforts to upgrade the [ovirt.org website](http://www.ovirt.org) and improve the community experience, the oVirt community has migrated the oVirt website from a MediaWiki site to a static site, authored in [Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/) and published with [Middleman](https://middlemanapp.com/). This was a major project that took more than six months and involved many contributors from all aspects of the project.
 
 I'd like to take this opportunity to thank all the people who were involved with this migration, from content reviewers to UX designers and Website admins who gave their time and brain power to make this happen.
 

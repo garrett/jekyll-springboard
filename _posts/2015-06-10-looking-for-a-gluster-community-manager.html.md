@@ -8,7 +8,7 @@ comments: true
 
 Red Hat is looking for a Gluster Community Manager! Are you prepared to lead an army of ants into the cloud?
 
-![Gluster Ant](http://www.gluster.org/images/antmascot.png)
+![Gluster Ant](/images/http://www.gluster.org/images/antmascot.png)
 
 READMORE
 

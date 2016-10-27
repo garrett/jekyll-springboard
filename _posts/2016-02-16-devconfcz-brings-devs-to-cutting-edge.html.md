@@ -6,7 +6,7 @@ author: bkp
 published: true
 comments: true
 ---
-![DevConf logo](blog/DevConf.cz_logo.png) On a quiet college campus in a small city in Eastern Europe, 1,200 professional and student developers recently descended to learn more about the future of coding. The general consensus from the participants was very much mission accomplished.
+![DevConf logo](/images/blog/DevConf.cz_logo.png) On a quiet college campus in a small city in Eastern Europe, 1,200 professional and student developers recently descended to learn more about the future of coding. The general consensus from the participants was very much mission accomplished.
 
 DevConf.cz is one of those annual events that looms high on the calendars of many Red Hat employees and contractors, since its location in Brno, Czech Republic puts it in the same location as Red Hat's largest engineering office in the world. Proximity to the Brno offices affords the event a lot of Red Hat attendees, but this is very much a conference for *any* developer who wants to see where market and community leaders are taking development best practices and projects.
 

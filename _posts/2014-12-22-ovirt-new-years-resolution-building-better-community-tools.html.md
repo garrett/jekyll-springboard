@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![](blog/oVirt-logo.png) When I was a journalist, one of the things that inevitably happened every year was the year-end crush of stories that highlighted the "best of" the closing year and the predictions for the year ahead.
+![](/images/blog/oVirt-logo.png) When I was a journalist, one of the things that inevitably happened every year was the year-end crush of stories that highlighted the "best of" the closing year and the predictions for the year ahead.
 
 So who am I to break with tradition?
 

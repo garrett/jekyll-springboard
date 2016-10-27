@@ -6,7 +6,7 @@ published: true
 comments: true
 ---
 
-![](blog/scale13x.png) Once again, we're pleased to be running Infrastructure.Next events in Ghent and alongside the [Southern California Linux Expo](http://www.socallinuxexpo.org/scale/13x). Tickets for [Ghent](https://www.eventbrite.com/e/infrastructurenext-ghent-2015-tickets-15221705531) and [SCALE](https://www.eventbrite.com/e/infrastructurenext-scale-2015-tickets-15330608262) are available now on Eventbrite, don't miss out! 
+![](/images/blog/scale13x.png) Once again, we're pleased to be running Infrastructure.Next events in Ghent and alongside the [Southern California Linux Expo](http://www.socallinuxexpo.org/scale/13x). Tickets for [Ghent](https://www.eventbrite.com/e/infrastructurenext-ghent-2015-tickets-15221705531) and [SCALE](https://www.eventbrite.com/e/infrastructurenext-scale-2015-tickets-15330608262) are available now on Eventbrite, don't miss out! 
 
 This is our second year running Infrastructure.Next. We had a great turnout last year, and are building on the previous events with feedback from last year's event. This year we'll have more case studies and deep dives, less introductory content. 
 

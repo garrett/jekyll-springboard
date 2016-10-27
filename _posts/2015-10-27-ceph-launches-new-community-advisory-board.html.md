@@ -6,7 +6,7 @@ tags: Ceph, community, Governance
 comments: true
 published: true
 ---
-![Ceph logo](blog/ceph-logo.png) There are a few important milestones in the life of any open source project: the first outside contribution. The first general release. And, for really successful projects, the creation of a solid governance structure to help guide the project in a way that benefits many.
+![Ceph logo](/images/blog/ceph-logo.png) There are a few important milestones in the life of any open source project: the first outside contribution. The first general release. And, for really successful projects, the creation of a solid governance structure to help guide the project in a way that benefits many.
 
 For [Ceph](http://www.ceph.com/), that milestone is today.
 

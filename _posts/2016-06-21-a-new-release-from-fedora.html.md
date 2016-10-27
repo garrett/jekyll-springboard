@@ -6,7 +6,7 @@ tags: software, releases, Fedora
 published: true
 comments: true
 ---
-![Fedora logo](blog/fedora-logo.png) Today is the day that [Fedora 24 has been released](https://fedoramagazine.org/fedora-24-released/)!
+![Fedora logo](/images/blog/fedora-logo.png) Today is the day that [Fedora 24 has been released](https://fedoramagazine.org/fedora-24-released/)!
 
 It's kind of a big deal at Red Hat, since Fedora is the upstream from which many things flow. So, as such, it's a community release that gets a lot of attention both within Red Hat, and without.
 
@@ -20,7 +20,7 @@ If you weren't aware, Fedora comes in three distinct releases, each maintained b
 
 I opted, as usual, for the Workstation release, which features GNOME 3.20 and, if you want to try it the X replacement Wayland. (X is still installed by default.) Working with the interface is a pure joy, I have to say, with excellent keyboard shortcut support that I have really come to appreciate lately. Not reaching for the mouse all the time is a blessing to this, er, *distinguished* man's wrists.
 
-![Fedora 24 desktop](https://fedoraproject.org/w/uploads/2/2b/F24-workstation-superkey.png)
+![Fedora 24 desktop](/images/https://fedoraproject.org/w/uploads/2/2b/F24-workstation-superkey.png)
 
 App support and installation is great, and I am looking forward to the implementation of Flatpak (n&eacute;e xdg-app), which was not formally included in the Fedora 24 release today, but was [released on its own on the same day](https://fedoramagazine.org/introducing-flatpak/). I don't need multiple Linux distros as much anymore now that I am not a reviewer and tech journalist, but I feel like firing up some virtual machines with other distros running so I can see Flatpak in action.
 

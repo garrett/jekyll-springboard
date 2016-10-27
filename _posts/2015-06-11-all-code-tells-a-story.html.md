@@ -6,7 +6,7 @@ tags: oVirt, OpenStack, cloud, SELF
 comments: true
 published: true
 ---
-![SELF logo](blog/self-logo.png) I can talk. A lot.
+![SELF logo](/images/blog/self-logo.png) I can talk. A lot.
 
 I'm pretty sure there's not one of my friends and co-workers who would dispute that assertion. 
 

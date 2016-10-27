@@ -13,7 +13,7 @@ tags:
 categories:
 - Blog
 ---
-![](blog/upstream-mic.jpg)
+![](/images/blog/upstream-mic.jpg)
 Last week, Red Hat announced that we were [open sourcing](http://ceph.com/community/ceph-calamari-goes-open-source/) Calamari, Ceph's management platform. It's been a bit of a whirlwind for the Ceph team, what with [being acquired by Red Hat](http://ceph.com/community/red-hat-to-acquire-inktank/) at the end of April, and then getting all the work done to get Calamari out the door as an open source project! 
 
 Tuesday, I had a chance to chat with Patrick McGarry of the Ceph team and talk about open source storage, what makes Ceph interesting, the Calamari release, and upcoming events where folks could check out Ceph and get involved.

@@ -6,7 +6,7 @@ tags: Fedora, advocacy, community
 published: true
 comments: true
 ---
-![Fedora logo](blog/fedora-logo.png) For years, I lived in a world of proprietary software. "Linux" and "open source" didn't even exist in my vocabulary, and my vision of the world was so narrow. It felt like I was living at the bottom of a well.
+![Fedora logo](/images/blog/fedora-logo.png) For years, I lived in a world of proprietary software. "Linux" and "open source" didn't even exist in my vocabulary, and my vision of the world was so narrow. It felt like I was living at the bottom of a well.
 
 But when I started learning web development (specifically PHP) at the age of 13, I became aware of open source technologies like [CentOS](https://www.centos.org/) and [Apache](http://apache.org/)&mdash;but never really cared.
 

@@ -8,7 +8,7 @@ comments: true
 published: true
 ---
 
-![](blog/luggage.jpg)Linux Conference Australia ([linux.conf.au](http://linux.conf.au/)) is the Southern Hemisphere’s premier open source conference. For one week a year, open source professionals and enthusiasts gather Down Under at this well-respected technical conference to talk about everything from low-level kernel specifics to high-level project governance principles. Here are 14 talks given by Red Hatters at this year’s LCA:
+![](/images/blog/luggage.jpg)Linux Conference Australia ([linux.conf.au](http://linux.conf.au/)) is the Southern Hemisphere’s premier open source conference. For one week a year, open source professionals and enthusiasts gather Down Under at this well-respected technical conference to talk about everything from low-level kernel specifics to high-level project governance principles. Here are 14 talks given by Red Hatters at this year’s LCA:
 
 ## Cloud and Containers
 

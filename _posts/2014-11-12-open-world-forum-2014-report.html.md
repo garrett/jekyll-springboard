@@ -7,7 +7,7 @@ published: true
 comments: true
 ---
 
-![](blog/OWF.png) Ah, Paris. While seemingly the rest of the tech world was in the City of Lights for the OpenStack Summit, a smaller and more intimate event took place the week prior: [Open World Forum](http://www.openworldforum.paris/en/).
+![](/images/blog/OWF.png) Ah, Paris. While seemingly the rest of the tech world was in the City of Lights for the OpenStack Summit, a smaller and more intimate event took place the week prior: [Open World Forum](http://www.openworldforum.paris/en/).
 
 The Forum is a two-day event in the heart of Paris dedicated to exploring all things open. And I do mean all: open software, open hardware, open data... the concept of open *writ* large and on display in a cozy little venue near the Arc de Triomphe. 
 

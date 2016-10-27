@@ -6,7 +6,7 @@ tags: community, Linux, open source, open standards
 comments: true
 published: true
 ---
-![Admin Cat](blog/bkp/admincat.jpg) [According to the Computer History Museum](http://www.computerhistory.org/internethistory/1960s/), today marks the date when the first host-to-host connection on ARPANET, from the University of California Los Angeles to the Stanford Research Institute, was made in 1969. This first connection effectively marks the the very beginning of what would later become a global network that would bring us knowledge, communication, and cat pictures.
+![Admin Cat](/images/blog/bkp/admincat.jpg) [According to the Computer History Museum](http://www.computerhistory.org/internethistory/1960s/), today marks the date when the first host-to-host connection on ARPANET, from the University of California Los Angeles to the Stanford Research Institute, was made in 1969. This first connection effectively marks the the very beginning of what would later become a global network that would bring us knowledge, communication, and cat pictures.
 
 Birthdays and anniversaries for technological advancements are tricky things, of course. Do you, for instance, celebrate the birth of the telephone based on Alexander Graham Bell's conception of the idea somewhere in the early 1870s within his work on the "harmonic telegraph," or do you peg the big day on March 10, 1876, when Bell famously called out to his assistant Thomas Watson to bring him some latte?
 

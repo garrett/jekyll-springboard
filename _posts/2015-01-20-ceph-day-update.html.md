@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![](blog/ceph-logo.png)The 2015 [Ceph Day](http://ceph.com/cephdays/) schedule is on its way. Rest assured, our radio silence on new events over the past few months has been down to planning for an even more packed 2015 itinerary. At the same time, we have been furiously updating the [Ceph YouTube Channel](https://www.youtube.com/channel/UCno-Fry25FJ7B4RycCxOtfw) with sessions from last year's events.
+![](/images/blog/ceph-logo.png)The 2015 [Ceph Day](http://ceph.com/cephdays/) schedule is on its way. Rest assured, our radio silence on new events over the past few months has been down to planning for an even more packed 2015 itinerary. At the same time, we have been furiously updating the [Ceph YouTube Channel](https://www.youtube.com/channel/UCno-Fry25FJ7B4RycCxOtfw) with sessions from last year's events.
 
 For the uninitiated, Ceph Days are the major upstream events for the [Ceph community](http://ceph.com/). With the project's core developers forced to come forward and tell us what they are up to, there is no better place to find out the latest on Ceph and the project's future direction. The events combine these updates with new ideas, advice and best practice examples from the project's leading global users, consultants, and hardware partners.
 

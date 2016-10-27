@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![](blog/bolt.jpg) Red Hat has been doing what it's doing for quite a while now, and so far, it seems to be working out pretty well. Every once in a while, though, along comes a little independent validation about the viability of open source in the business world that deserves to be called out.
+![](/images/blog/bolt.jpg) Red Hat has been doing what it's doing for quite a while now, and so far, it seems to be working out pretty well. Every once in a while, though, along comes a little independent validation about the viability of open source in the business world that deserves to be called out.
 
 The most recent example is from *The New York Times*, specifically, an article that (rightly) highlights the [need for data analytics and shepherding in the big data arena](http://www.nytimes.com/2014/12/15/technology/in-big-data-shepherding-comes-first-.html?_r=0). As you might have guessed, I am personally in agreement with this point, because for a long time in big data there's been a whole lot of data gathering and not a lot of data analysis. What analysis there has been has been rife with a great deal of inane conclusions ("consumers love Product X!") and the occasional cool data analysis that makes you actually think about the world around you. 
 

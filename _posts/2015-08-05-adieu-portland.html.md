@@ -6,7 +6,7 @@ tags: OSCON, conferences
 comments: true
 published: true
 ---
-![OSCON logo](blog/oscon-logo.jpg) The crush of the crowd was full of anticipation. Hundreds of red baseball caps surrounded us, all holding their numbered tickets and waiting to hear their number to be called.
+![OSCON logo](/images/blog/oscon-logo.jpg) The crush of the crowd was full of anticipation. Hundreds of red baseball caps surrounded us, all holding their numbered tickets and waiting to hear their number to be called.
 
 In the booth, we stood fast, tossing out offerings of t-shirts to keep the swelling crowd appeased as they waited for the appointed hour. It was tough going; the RDO and CentOS shirts were flying out, while oVirt shirts were slower to be distributed.
 

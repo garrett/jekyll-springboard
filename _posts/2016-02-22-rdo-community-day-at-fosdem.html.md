@@ -7,7 +7,7 @@ published: true
 comments: true
 ---
 
-![RDO logo](blog/rdo-logo.png) Time does get away from me! It's been three weeks now since I was in Brussels for [FOSDEM](https://fosdem.org/2016/). On
+![RDO logo](/images/blog/rdo-logo.png) Time does get away from me! It's been three weeks now since I was in Brussels for [FOSDEM](https://fosdem.org/2016/). On
 the day before FOSDEM started, we held the first [RDO Community
 Day](https://www.rdoproject.org/events/rdo-day-fosdem-2016/) as
 part of the [CentOS

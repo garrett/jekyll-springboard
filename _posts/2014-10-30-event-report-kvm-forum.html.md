@@ -8,7 +8,7 @@ comments: true
 published: true
 ---
 
-![](blog/logo_kvmforum_crop.png)
+![](/images/blog/logo_kvmforum_crop.png)
 [LinuxCon](http://events.linuxfoundation.org/events/linuxcon-europe)/[CloudOpen](http://events.linuxfoundation.org/events/cloudopen-europe) (Europe), [KVM Forum](http://events.linuxfoundation.org/events/kvm-forum), [Linux Plumbers Conference](http://www.linuxplumbersconf.org/2014/), and a few other Linux Foundation events were co-located in October in Düsseldorf, Germany. The Linux Foundation events were held at an excellent venue, Congress Center Düsseldorf, on the bank of Rhine river. 
 
 In case you're not familiar with the KVM Forum, it's a developer event that mainly focuses on KVM, QEMU, and libvirt projects and their integration work. I spent most of my time at KVM Forum, with an occasional shuffle to LinuxCon/CloudOpen events to give a talk or to attend a discussion.
@@ -27,7 +27,7 @@ Slides (PDF) from his talk are [posted online](http://vmsplice.net/~stefan/stefa
 
 ## KVM Forum, LinuxCon, and CloudOpen
 
-![](blog/logo_kvmforum.png){:align="right"} KVM Forum started on Tuesday, and I caught Paolo Bonzini's KVM Keynote ([Video](http://www.youtube.com/watch?v=7aA7FQAbHsE)). Traditionally, KVM Forum kicks off with this keynote by the current KVM maintainer, discussing the state of KVM in the past year or so, highlights, architecture support and improvements, optimizations, benchmark details, and so on. (Keynote slides are [available online](http://events.linuxfoundation.org/sites/events/files/slides/kvmforum14-kvm.pdf) (PDF).)
+![](/images/blog/logo_kvmforum.png){:align="right"} KVM Forum started on Tuesday, and I caught Paolo Bonzini's KVM Keynote ([Video](http://www.youtube.com/watch?v=7aA7FQAbHsE)). Traditionally, KVM Forum kicks off with this keynote by the current KVM maintainer, discussing the state of KVM in the past year or so, highlights, architecture support and improvements, optimizations, benchmark details, and so on. (Keynote slides are [available online](http://events.linuxfoundation.org/sites/events/files/slides/kvmforum14-kvm.pdf) (PDF).)
 
 After the keynote, I attended Andrew Honig's [Security Hardening of KVM](http://sched.co/1zF98ZT) talk. Andrew took a deep dive into security aspects of KVM at the kernel level. Google Compute Engine uses KVM, but Andrew mentioned that they don't use QEMU as user space with KVM, rather as "something else" (without exactly naming what that something is). He also discussed different types of KVM vulnerabilities (including specific CVEs), how to reduce the attack surface, and approaches to move attack surfaces to user space VMM. He concluded by talking about a couple of new I/O controls (ioctls) that they're experimenting with at Google.
 If you're into KVM and kernel internals and security, Andrew's talk might interest you, so check out his [slides (PDF)](http://events.linuxfoundation.org/sites/events/files/slides/KVM%20Hardening.pdf) online.

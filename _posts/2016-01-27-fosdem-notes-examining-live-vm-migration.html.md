@@ -6,7 +6,7 @@ tags: FOSDEM, events, KVM
 published: true
 comments: true
 ---
-![qemu logo](blog/Qemu-logo.png) The notion that all virtualization workloads and use cases are the same is not widespread in IT, but it remains an idea that is somewhat hard to shake. In point of fact, the differences in how virtual machines are deployed and run can be seen in the existence of differing platforms like OpenStack, oVirt, and virt-manager.
+![qemu logo](/images/blog/Qemu-logo.png) The notion that all virtualization workloads and use cases are the same is not widespread in IT, but it remains an idea that is somewhat hard to shake. In point of fact, the differences in how virtual machines are deployed and run can be seen in the existence of differing platforms like OpenStack, oVirt, and virt-manager.
 
 All three of these platforms use the KVM hypervisor, but their target use cases are clearly very different. Cloud, datacenter management, and single-server virtual machine management satisfy very different needs, and getting KVM to cater to those needs has proven to be a challenge over the years.
 

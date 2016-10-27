@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![](blog/computer-illus.jpg) Reflecting back over the holiday break, I would have to say that overall, it was pretty mellow. (This is not always a given when family gatherings are part of the equation.)
+![](/images/blog/computer-illus.jpg) Reflecting back over the holiday break, I would have to say that overall, it was pretty mellow. (This is not always a given when family gatherings are part of the equation.)
 
 This year, it was Christmas with the in-laws, and it was the first time we'd had a lengthy visit with them since I started working with the [oVirt project](http://www.ovirt.org/Home). All my in-laws knew was that I had a new job and I was traveling a lot. This, naturally, led to the inevitable question: what is it that I actually do?
 

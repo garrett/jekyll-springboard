@@ -6,7 +6,7 @@ tags: RDO, TripleO, video
 published: true
 comments: true
 ---
-![RDO logo](blog/rdo-logo.png) One of the very first things I learned about OpenStack was just how difficult it was to install.
+![RDO logo](/images/blog/rdo-logo.png) One of the very first things I learned about OpenStack was just how difficult it was to install.
 
 With so many components handling so much automation, installation and deployment of a cloud computing platform like OpenStack, it's no small feat to get it up and running.
 

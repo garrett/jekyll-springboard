@@ -6,7 +6,7 @@ tags: oVirt, moVirt
 comments: true
 published: true
 ---
-![oVirt logo](blog/ovirt-logo.png) The oVirt development team is very pleased to announced the release of version 1.0 of moVirt, which is now [officially available as an Android app on the Google Play store](https://play.google.com/store/apps/details?id=org.ovirt.mobile.movirt).
+![oVirt logo](/images/blog/ovirt-logo.png) The oVirt development team is very pleased to announced the release of version 1.0 of moVirt, which is now [officially available as an Android app on the Google Play store](https://play.google.com/store/apps/details?id=org.ovirt.mobile.movirt).
 
 The [moVirt app](https://github.com/matobet/movirt), which was released on August 4, is a mobile client for oVirt that aims not to duplicate the features of the existing web dashboard but strives to be a useful companion app.
 

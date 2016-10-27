@@ -7,9 +7,9 @@ comments: true
 published: true
 ---
 
-![](blog/rdo-openstacksummit_sm.jpg)When we started the [RDO project](https://openstack.redhat.com/Main_Page) back in April of 2013, the main focus was on producing a distribution of OpenStack that made it easy to deploy on CentOS, Fedora, and Red Hat Enterprise Linux. While we put time into making it easy for the community around that distribution to grow and support itself, most of the technical work was done inside Red Hat, and there were parts of it that weren't very visible to the community.
+![](/images/blog/rdo-openstacksummit_sm.jpg)When we started the [RDO project](https://openstack.redhat.com/Main_Page) back in April of 2013, the main focus was on producing a distribution of OpenStack that made it easy to deploy on CentOS, Fedora, and Red Hat Enterprise Linux. While we put time into making it easy for the community around that distribution to grow and support itself, most of the technical work was done inside Red Hat, and there were parts of it that weren't very visible to the community.
 
-![](blog/rdo-openstacksummit.jpg){:align="right"}
+![](/images/blog/rdo-openstacksummit.jpg){:align="right"}
 
 It's time to prioritize opening up the RDO development process and make the technical governance of the project available to the entire community.
 

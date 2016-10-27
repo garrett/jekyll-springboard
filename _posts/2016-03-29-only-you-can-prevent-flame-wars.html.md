@@ -6,7 +6,7 @@ author: bkp
 published: true
 comments: true
 ---
-![Smokey Bear](blog/bkp/Smokey.jpg)Stop me if you've heard this one.
+![Smokey Bear](/images/blog/bkp/Smokey.jpg)Stop me if you've heard this one.
 
 Open source project is licensed under License A, and someone comes along and requests/demands that License B be used instead. Conversation ensues, which soon becomes an all-out flame war, because Someone Is Wrong On the Internet.
 

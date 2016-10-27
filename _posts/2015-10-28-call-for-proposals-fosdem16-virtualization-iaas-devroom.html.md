@@ -7,7 +7,7 @@ tags: oVirt, community, FOSDEM
 comments: true
 published: true
 ---
-![FOSDEM logo](blog/fosdem2015.png) I am excited to announce that the call for proposals is now open for the Virtualization & IaaS devroom at the upcoming [FOSDEM 2016](https://fosdem.org/2016/).
+![FOSDEM logo](/images/blog/fosdem2015.png) I am excited to announce that the call for proposals is now open for the Virtualization & IaaS devroom at the upcoming [FOSDEM 2016](https://fosdem.org/2016/).
 
 _**Note:** This blog entry has been updated to include new information on the deadline for submittal, as well as more information on the speakers mentoring program and the FOSDEM Code of Conduct._
 

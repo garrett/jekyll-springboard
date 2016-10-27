@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![](blog/CentOS_200x.png)Something has been in the works over the past few months in the CentOS Project, what we're calling 'rolling builds'.
+![](/images/blog/CentOS_200x.png)Something has been in the works over the past few months in the CentOS Project, what we're calling 'rolling builds'.
 
 Generally a rolling build is where a software project makes regular builds of the latest code (for example, every month, week, or day). Typically all the updates or changes to the software are included in the build. 
 

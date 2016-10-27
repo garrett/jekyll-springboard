@@ -22,7 +22,7 @@ READMORE
 
 ## Private fork
 
-![No Interaction](blog/no_interaction.png)
+![No Interaction](/images/blog/no_interaction.png)
 
 The simplest way to build something on top of open source is to take the source code at a moment in time, and use it. If you need to make any changes, make them in your copy, and maintain the difference yourself.
 
@@ -32,11 +32,11 @@ This has a lot of merit, especially if you plan to use the project essentially u
 
 On the other hand, moving to a newer version of the upstream project and integrating all of your features and fixes there is not straightforward either. This is called merging, or rebasing.
 
-![Rebase](blog/rebase.png)
+![Rebase](/images/blog/rebase.png)
 
 The costs here include the development cost of all of your own work, plus the cost of resolving conflicts when the community works in the same files as you have, plus the cost of testing and qualifying your release for production, working out an upgrade and roll-out path, adapting your work to new APIs and features in the upstream project. You may encounter regression issues because of interactions of your code and the new upstream features, or expose issues which had not been seen before, leading to an increase in the delta between your branch and the upstream project.
 
-![Repeated Rebase](blog/repeated_rebase.png)
+![Repeated Rebase](/images/blog/repeated_rebase.png)
 
 Many companies are “stuck” maintaining old versions of projects because the cost of rebasing to more recent versions of projects are expensive, and difficult to evaluate. This problem is worse the more code you have specific to your private fork. And of course, this is not a one-time operation! A year or two later, you will have another multi-month effort to review all of your code against the new upstream, re-merge new code, re-develop some of your code, re-test everything, re-deploy, re-upgrade, etc. This cost will compound over time, and if you are actively developing your code, it will slow down progress considerably. Soon, your development team will be spending more time on merging and upgrading the underlying platform, and fixing the resulting issues, than they will on developing new code.
 
@@ -46,7 +46,7 @@ In the case of OPNFV, maintaining significant patches on a vendor branch across 
 
 ## Swimming upstream
 
-![Proposed Merge](blog/proposed_merge.png)
+![Proposed Merge](/images/blog/proposed_merge.png)
 
 To the untutored eye, it might seem straightforward to submit features and patches to an open source project. These contributions can be useful to others, and represent a lot of work on behalf of the submitter, so one might expect upstream projects to be grateful to get new contributions. In reality it is not so straightforward. First, it is unlikely that patches written privately follow the project's coding guidelines. Second, developers writing code for a private branch may take shortcuts to solve a problem which makes a patch unsuitable for a large project. Third, open source projects expect developers to do a number of things which it is unlikely you have done.
 
@@ -56,7 +56,7 @@ Another issue is that any code you submit upstream will be very difficult to dig
 
 Even when you have done this work, there is no guarantee that your proposed patches will be well received – perhaps the maintainer of the project disagrees with how you solved a problem, or another community member is working on a more elegant solution. The maintainer or community may not even care about your problem, or agree that it needs solving.
 
-![Development on Standard Branches](blog/development_on_standard_branches.png)
+![Development on Standard Branches](/images/blog/development_on_standard_branches.png)
 
 So, the ideal way to work is to develop your features against the unstable branch of the upstream project – this way, patches can be proposed as soon as they're ready. Your product offering may be based on a stable release of the project – when you want to integrate new features into your product, these features should be taken from the development branch and backported to the stable branch, which moves much more slowly, and where the maintenance cost will be lower over the lifetime of your product.
 

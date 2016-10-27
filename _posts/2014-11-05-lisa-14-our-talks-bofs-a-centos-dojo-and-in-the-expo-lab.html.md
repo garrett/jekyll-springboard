@@ -8,7 +8,7 @@ published: true
 comments: true
 ---
 
-![](blog/lisa14_banner.png)
+![](/images/blog/lisa14_banner.png)
 "Did you go to LISA last year? It was awesome/interesting/informative!"
 
 No. No, I did not go to [LISA last year](https://www.usenix.org/conference/lisa13), nor any other year, thank you very much for asking me or telling me about it for the umpteenth time.

@@ -6,7 +6,7 @@ tags: RDO, interview, OpenStack, Liberty
 comments: true
 published: true
 ---
-![RDO logo](blog/rdo-logo.png)
+![RDO logo](/images/blog/rdo-logo.png)
 
 Before OpenStack Summit, I interviewed Mike Perez about what's new in Cinder in the LIberty release, and what's coming in Mitaka. Unfortunately, life got a little busy and I didn't get it posted before Summit. However, with Liberty still fresh, this is still very timely content.
 

@@ -8,7 +8,7 @@ comments: true
 published: true
 ---
 
-![](blog/fosdem2015.png) At the end of the month, more than 5,000 people from around the world will gather in Brussels for [FOSDEM 2015](https://fosdem.org/2015/) ( January 31 and February 1). The event is free and registration is not required, so if you're in the area (or can get there), FOSDEM is a great way to expand your international network *and* your skillset. 
+![](/images/blog/fosdem2015.png) At the end of the month, more than 5,000 people from around the world will gather in Brussels for [FOSDEM 2015](https://fosdem.org/2015/) ( January 31 and February 1). The event is free and registration is not required, so if you're in the area (or can get there), FOSDEM is a great way to expand your international network *and* your skillset. 
 
 The [schedule is now online](https://fosdem.org/2015/schedule/), but check back before the event to confirm that talks and speakers haven't been shifted around at the last minute. Here is a sample of sessions you can attend to learn more about our projects:
 

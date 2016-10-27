@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![](blog/oVirt-logo.png) Normally within the oVirt release cycle, we don't offer new features in mid-cycle. Instead, we just improve upon or fix up the features that are already in there, and new features will come out the next major point release. But last week we announced the [oVirt 3.5.1 release candidate](http://lists.ovirt.org/pipermail/users/2015-January/030657.html), and we're pleased to confirm that oVirt Engine will indeed run on el7 distributions, which includes Red Hat Enterprise Linux and CentOS 7.
+![](/images/blog/oVirt-logo.png) Normally within the oVirt release cycle, we don't offer new features in mid-cycle. Instead, we just improve upon or fix up the features that are already in there, and new features will come out the next major point release. But last week we announced the [oVirt 3.5.1 release candidate](http://lists.ovirt.org/pipermail/users/2015-January/030657.html), and we're pleased to confirm that oVirt Engine will indeed run on el7 distributions, which includes Red Hat Enterprise Linux and CentOS 7.
 
 As of this RC, [oVirt packages for oVirt are now available](http://resources.ovirt.org/pub/ovirt-3.5-pre/) for Fedora 20, el6, and el7.
 

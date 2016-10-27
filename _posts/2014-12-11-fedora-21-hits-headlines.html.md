@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![](blog/fedora-logo.png)Fedora 21 officially rolled out Tuesday December 9th and made a lot of headlines. Congratulations to the Fedora community on an exciting new release that's getting rave reviews. Word on the street is [Fedora 21 was well worth the wait](http://www.zdnet.com/article/fedora-21-ready-for-release/). 
+![](/images/blog/fedora-logo.png)Fedora 21 officially rolled out Tuesday December 9th and made a lot of headlines. Congratulations to the Fedora community on an exciting new release that's getting rave reviews. Word on the street is [Fedora 21 was well worth the wait](http://www.zdnet.com/article/fedora-21-ready-for-release/). 
 
 To download Fedora 21 and see the official documentation, visit [getfedora.org](https://getfedora.org/).
 

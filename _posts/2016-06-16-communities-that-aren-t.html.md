@@ -6,7 +6,7 @@ tags: community, open source, communication
 published: true
 comments: true
 ---
-![Cranes in city skyline](blog/bkp/construction_cranes.jpg) This is not about how to create communities and who is doing it wrong. This is about the perception of community and the difference between the perception and reality.
+![Cranes in city skyline](/images/blog/bkp/construction_cranes.jpg) This is not about how to create communities and who is doing it wrong. This is about the perception of community and the difference between the perception and reality.
 
 Here's what I know about communities:
 

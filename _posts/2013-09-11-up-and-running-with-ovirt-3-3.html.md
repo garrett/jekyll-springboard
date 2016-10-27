@@ -75,7 +75,7 @@ To make the shift to permissive mode persist between reboots, edit `/etc/sysconf
 
           $> sudo engine-setup
 
-      ![engine-setup33.png](blog/engine-setup33.png)
+      ![engine-setup33.png](/images/blog/engine-setup33.png)
 
       Once the engine-setup script completes, you’ll have a working management server that doubles as a virtualization host. The script sets up a local storage domain for hosting VM images, and an iso domain for storing iso images for installing operating systems on the VMs you create.
 
@@ -112,19 +112,19 @@ To make the shift to permissive mode persist between reboots, edit `/etc/sysconf
 
   5. Now, fire up your Web browser, visit the address your oVirt engine machine, and click the "Administrator Portal" link. Log in with the user name "admin" and the password you entered during engine-setup.
 
-      ![admin-portal-login33.png](blog/admin-portal-login33.png)
+      ![admin-portal-login33.png](/images/blog/admin-portal-login33.png)
 
-      ![admin-portal-login-a33.png](blog/admin-portal-login-a33.png)
+      ![admin-portal-login-a33.png](/images/blog/admin-portal-login-a33.png)
 
       Once logged into the Administrator Portal, click the "Storage" tab, select your ISO_DOMAIN, and visit the the "Data Center" tab in the bottom half of the screen. Next, click the "Attach" link, check the check box next to "local_datacenter," and hit "OK." This will attach the storage domain that houses your ISO images to your local datacenter.
 
-      ![storage-tab33.png](blog/storage-tab33.png)
+      ![storage-tab33.png](/images/blog/storage-tab33.png)
 
-      ![attach-iso33.png](blog/attach-iso33.png)
+      ![attach-iso33.png](/images/blog/attach-iso33.png)
 
       Next, we’ll create and activate our export domain. From the "Storage" tab, click "New Domain," give the export domain a name (I’m using EXPORT_DOMAIN), choose "local_datacenter" in Data Center drop down menu, choose "Export / NFS" from "Domain Function / Storage Type" drop down menu, enter your oVirt machine IP / FQDN :/var/lib/exports/export in the Export Path, and click OK.
 
-      ![new-export-domain33.png](blog/new-export-domain33.png)
+      ![new-export-domain33.png](/images/blog/new-export-domain33.png)
 
 
   6. Before we create a VM, let’s head back to the command line and upload an iso image that we can use to install an OS on the VM we create.Download an iso image:
@@ -138,19 +138,19 @@ To make the shift to permissive mode persist between reboots, edit `/etc/sysconf
 
   7. Now we’re ready to create and run a VM. Head back to the oVirt Administrator Portal, visit the "Virtual Machines" tab, and click "New VM." In the resulting dialog box, give your new instance a name and click "OK."
 
-      ![new-VM33.png](blog/new-VM33.png)
+      ![new-VM33.png](/images/blog/new-VM33.png)
 
       In the "New Virtual Machine - Guide Me" dialog that pops up next, click "Configure Virtual Disks," enter a disk size, and click "OK." Hit "Configure Later" to dismiss the Guide Me dialog.
 
-      ![add-disk33.png](blog/add-disk33.png)
+      ![add-disk33.png](/images/blog/add-disk33.png)
 
       Next, select your newly-created VM, and click "Run Once." In the dialog box that appears, expand "Boot Options," check the "Attach CD" check box, choose your install iso from the drop down, and hit "OK" to proceed.
 
-      ![run-once33.png](blog/run-once33.png)
+      ![run-once33.png](/images/blog/run-once33.png)
 
       After a few moments, the status of your new vm will switch from red to green, and you can click on the green monitor icon next to "Migrate" to open a console window.
 
-      ![run-VM33.png](blog/run-VM33.png)
+      ![run-VM33.png](/images/blog/run-VM33.png)
 
       oVirt defaults to the SPICE protocol for new VMs, which means you’ll need the virt-viewer package installed on your client machine. If a SPICE client isn’t available to you, you can opt for VNC by stopping your VM, clicking "Edit," "Console," "Show Advanced Options," and choosing VNC from the "Protocol" drop down menu.
 

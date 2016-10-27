@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![](blog/fosdem2015.png)FOSDEM is one of the world's biggest gatherings of free and open source developers, and it takes a *lot* of work to put the entire thing together. Almost magically, the event is staffed and managed by volunteers and put on free of cost to the attendees. If you were one of the thousands of folks attending FOSDEM this past weekend in Brussels, you might have found yourself sitting in a devroom thinking, "Hey, I'd like to put one of these together next year!" If so, read on. 
+![](/images/blog/fosdem2015.png)FOSDEM is one of the world's biggest gatherings of free and open source developers, and it takes a *lot* of work to put the entire thing together. Almost magically, the event is staffed and managed by volunteers and put on free of cost to the attendees. If you were one of the thousands of folks attending FOSDEM this past weekend in Brussels, you might have found yourself sitting in a devroom thinking, "Hey, I'd like to put one of these together next year!" If so, read on. 
 
 READMORE
 
@@ -21,7 +21,7 @@ First things first: Don't propose a devroom if you've never attended FOSDEM befo
 
 FOSDEM is held at the [Université libre de Bruxelles](http://www.ulb.ac.be/campus/solbosch/solbosch-en.html) (ULB), spread out over several buildings. The weather is invariably cold, but depending on the year you attend you have the choice of rain or snow. Bring and umbrella and shoes that are suitable for dashing across a college campus with plenty of hills and (potentially) icy steps. 
 
-![](blog/devroom_2015.JPG){:align="right"}Rooms are crowded, and all the devrooms run on their own schedule. This means that if you're choosing talks across devrooms, there's a good chance that the talk in the distributions devroom you've been dying to see is going to end 10 minutes into the talk you wanted to see in the virt devroom across campus. Also, unless the room organizers are prohibiting it, people will enter and leave the talks (banging desks and creating chaos) all through the presentation.
+![](/images/blog/devroom_2015.JPG){:align="right"}Rooms are crowded, and all the devrooms run on their own schedule. This means that if you're choosing talks across devrooms, there's a good chance that the talk in the distributions devroom you've been dying to see is going to end 10 minutes into the talk you wanted to see in the virt devroom across campus. Also, unless the room organizers are prohibiting it, people will enter and leave the talks (banging desks and creating chaos) all through the presentation.
 
 The "hallway track" at FOSDEM is strong, and what keeps most folks coming back year after year after year. For best success, try to contact people well ahead of FOSDEM and carve out a specific time to meet. 
 

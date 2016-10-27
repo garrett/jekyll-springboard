@@ -6,7 +6,7 @@ tags: FOSDEM, events, Lago
 published: true
 comments: true
 ---
-![Lago logo](blog/lago.png) There's a lot of movement lately around containers to run tests and development environments, but not all the applications are ready to run inside them, maybe because they are legacy applications, that rely on some system details to be able to run, or because they are applications that require to access those system details, like for example, [oVirt](http://www.ovirt.org), a virtualization platform for the data center.
+![Lago logo](/images/blog/lago.png) There's a lot of movement lately around containers to run tests and development environments, but not all the applications are ready to run inside them, maybe because they are legacy applications, that rely on some system details to be able to run, or because they are applications that require to access those system details, like for example, [oVirt](http://www.ovirt.org), a virtualization platform for the data center.
 
 So in oVirt, we found that containers were not a strong fit to create reproducible and meaningful testing environments that would give
 insight on the possible failures when running on real metal. We wanted an easy way to let developers run those tests locally on their

@@ -6,7 +6,7 @@ tags: community, open source, localization
 published: true
 comments: true
 ---
-![Summit logo](blog/bkp/logo_lcjp.png) I have been fortunate enough to attend LinuxCon Japan this week, a conference of 350 attendees in the Bunkyo neighborhood of Tokyo that features strong tracks to keep developers and business people here in Asia appraised of all things cool and open source.
+![Summit logo](/images/blog/bkp/logo_lcjp.png) I have been fortunate enough to attend LinuxCon Japan this week, a conference of 350 attendees in the Bunkyo neighborhood of Tokyo that features strong tracks to keep developers and business people here in Asia appraised of all things cool and open source.
 
 I was asked to do a couple of talks, one being on how community can have real value on the bottom line of a business and not just be an expenditure on an organization's bottom line. It went pretty well, and one of the questions afterward was very interesting.
 

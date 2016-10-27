@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![RDO logo](blog/rdo-logo.png) Zaqar (formerly called Marconi) is the messaging service in OpenStack. I recently had an opportunity to interview Flavio Percoc, who is the PTL (Project Technical Lead) of that project, about what’s new in Kilo, and what’s coming in Liberty.
+![RDO logo](/images/blog/rdo-logo.png) Zaqar (formerly called Marconi) is the messaging service in OpenStack. I recently had an opportunity to interview Flavio Percoc, who is the PTL (Project Technical Lead) of that project, about what’s new in Kilo, and what’s coming in Liberty.
 
 The recording is here, and the transcript follows after the break.
 

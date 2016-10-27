@@ -11,7 +11,7 @@ tags:
 categories:
 - Blog
 ---
-![](blog/deb-bryant.jpg)
+![](/images/blog/deb-bryant.jpg)
 We are excited to have [Deb Bryant](http://debbryant.com/bryant-bio/) join the Open Source and Standards team (a.k.a., OSAS) in the CTO office, showing our continued focus on growing and investing in open source projects. In this interview, Deb offers a preview of her new role as Senior Director, OSAS.
 
 *Rikki*: What will you be doing in your role as Senior Director, OSAS?

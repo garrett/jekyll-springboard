@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![](blog/oVirt-logo.png) Next week in Los Angeles, I'll be [giving a talk](http://www.socallinuxexpo.org/scale/13x/presentations/solving-np-hard-scheduling-problems-ovirt-and-optaplanner) at the [SCALE 13x](http://www.socallinuxexpo.org/scale/13x) conference on oVirt's new [OptaPlanner-powered](http://www.optaplanner.org/) scheduling adviser.
+![](/images/blog/oVirt-logo.png) Next week in Los Angeles, I'll be [giving a talk](http://www.socallinuxexpo.org/scale/13x/presentations/solving-np-hard-scheduling-problems-ovirt-and-optaplanner) at the [SCALE 13x](http://www.socallinuxexpo.org/scale/13x) conference on oVirt's new [OptaPlanner-powered](http://www.optaplanner.org/) scheduling adviser.
 
 Martin Sivák wrote a [great post](http://community.redhat.com/blog/2014/11/smart-vm-scheduling-in-ovirt-clusters/) about the feature a couple of months ago, but didn't cover its installation process, which still has a few rough edges. 
 
@@ -65,7 +65,7 @@ As noted in the [oVirt wiki](http://www.ovirt.org/Features/Optaplanner#Data_refr
 
 Once I did, I could visit the "Optimzer Result" sub-tab within the "Clusters" tab in the oVirt web admin console to view the suggested optimizations for my environment.
 
-![](blog/optimizer.png)
+![](/images/blog/optimizer.png)
 
 Finally, if you're itching to try all this out in a more buzzword-compliant fashion, you're in luck! [Roy Golan](https://twitter.com/_royg_) just put together a dockerized-method of running the optimizer. I haven't tested it out yet for myself, but you can follow up on it (and let me know how it goes) at Roy's [github repo here](https://github.com/rgolangh/Fedora-Dockerfiles/tree/ovirt-optimizer/ovirt-optimizer).
 

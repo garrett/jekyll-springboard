@@ -6,7 +6,7 @@ tags: community, open source, onboarding
 published: true
 comments: true
 ---
-![OSM logo](blog/bkp/Openstreetmap_logo.png) There is much&mdash;legitimate, mind you&mdash;celebration of late about the continued success of open source within software development. But there are times when that success may not be enough, even when good-faith efforts are made.
+![OSM logo](/images/blog/bkp/Openstreetmap_logo.png) There is much&mdash;legitimate, mind you&mdash;celebration of late about the continued success of open source within software development. But there are times when that success may not be enough, even when good-faith efforts are made.
 
 It is one thing to have an open source software project and quite another to have a healthy and growing open source community. Even when a company or project is making legitimate and strong efforts to free and open source processes and values, it may not always hit the mark&mdash;especially when it comes to community.
 

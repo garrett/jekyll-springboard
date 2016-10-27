@@ -6,7 +6,7 @@ tags: events, Gluster, FAST
 published: true
 comments: true
 ---
-![Gluster logo](blog/gluster-ant.png) We hosted a small meetup/birds of a feather session at [USENIX’s FAST conference](http://usenix.org/conference/fast16/technical-sessions). FAST is a conference that focuses on File And Storage Technologies in Santa Clara, California.
+![Gluster logo](/images/blog/gluster-ant.png) We hosted a small meetup/birds of a feather session at [USENIX’s FAST conference](http://usenix.org/conference/fast16/technical-sessions). FAST is a conference that focuses on File And Storage Technologies in Santa Clara, California.
 
 Vijay Bellur, Gluster Project Lead, did a short talk on Gluster.Next, our ongoing architectural evolution in Gluster to improve scaling and enable new use cases like like storage as a service, storage for containers, and hyperconvergence.
 

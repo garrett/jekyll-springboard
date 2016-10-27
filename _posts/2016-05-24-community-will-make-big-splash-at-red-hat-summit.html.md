@@ -6,7 +6,7 @@ tags: community, open source, Summit
 published: true
 comments: true
 ---
-![Summit logo](blog/bkp/Redhat-Summit.png) As Red Hat preps for [Red Hat Summit](https://www.redhat.com/en/summit) in the venerable Moscone Center next month, the Open Source and Standards team is preparing to be a strong presence at the event with our Community Central in the Main Expo Hall and a separate Open Source and Community track within the sessions.
+![Summit logo](/images/blog/bkp/Redhat-Summit.png) As Red Hat preps for [Red Hat Summit](https://www.redhat.com/en/summit) in the venerable Moscone Center next month, the Open Source and Standards team is preparing to be a strong presence at the event with our Community Central in the Main Expo Hall and a separate Open Source and Community track within the sessions.
 
 The Community Central area will feature a lounge and plenty of space to interact with the Fedora and CentOS projects, which will anchor the space. But projects like [RDO](https://www.rdoproject.org/), [Gluster](https://www.gluster.org/), [Ceph](http://ceph.com/), [oVirt](https://ovirt.org), and [Project Atomic](http://www.projectatomic.io/) will also have a home in Community Central, just to name a few.
 

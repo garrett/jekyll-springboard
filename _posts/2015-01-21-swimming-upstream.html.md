@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![](blog/rdo-logo.png) For the first year and a half, [RDO](http://openstack.redhat.com/) has been largely an effort run by Red Hatters, with some of the work going on behind the firewall. In our community meetup in Paris, at the OpenStack Summit, as I mentioned in my [earlier post](http://community.redhat.com/blog/2014/12/rdo-packaging/), we got a lot of feedback from people saying that they wanted greater insight into what we were doing, as well as the opportunity to play along.
+![](/images/blog/rdo-logo.png) For the first year and a half, [RDO](http://openstack.redhat.com/) has been largely an effort run by Red Hatters, with some of the work going on behind the firewall. In our community meetup in Paris, at the OpenStack Summit, as I mentioned in my [earlier post](http://community.redhat.com/blog/2014/12/rdo-packaging/), we got a lot of feedback from people saying that they wanted greater insight into what we were doing, as well as the opportunity to play along.
 
 So I wanted to quickly update with some of the things that we're doing in RDO to "swim upstream" a little more.
 

@@ -6,7 +6,7 @@ tags: community, open source, Summit
 published: true
 comments: true
 ---
-![Summit logo](blog/bkp/Redhat-Summit.png) Wednesday was another fine day at Red Hat Summit 2016 in San Francisco at the Moscone Center. After a really fun keynote that included deploying a mobile game that something like 800 attendees played live, it was time for breakout sessions.
+![Summit logo](/images/blog/bkp/Redhat-Summit.png) Wednesday was another fine day at Red Hat Summit 2016 in San Francisco at the Moscone Center. After a really fun keynote that included deploying a mobile game that something like 800 attendees played live, it was time for breakout sessions.
 
 What follows is a nearly stream-of-consciousness grab of the highlights of the sessions from day two.
 

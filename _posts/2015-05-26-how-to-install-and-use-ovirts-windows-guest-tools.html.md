@@ -50,24 +50,24 @@ Great, now we can access the contents of the ISO image from the VM. Open a conso
 
 Accessing the CD-ROM device with the mounted ISO image will reveal its content, as shown here:
 
-![oVirt tools](blog/01-oVirt-Tools-ISO.jpg)
+![oVirt tools](/images/blog/01-oVirt-Tools-ISO.jpg)
 
 The thing that you are really interested in is the ovirt-guest-tools-setup.exe. Double click on it to start the installer:
 
-![welcome](blog/02-oVirt-Installer-Welcome.jpg)
+![welcome](/images/blog/02-oVirt-Installer-Welcome.jpg)
 
 Clicking on the Next button will bring you to the next screen, which is a License Agreement:
 
-![license](blog/03-oVirt-Installer-License.jpg)
+![license](/images/blog/03-oVirt-Installer-License.jpg)
 
 Read it carefully before clicking on I agree button, which begins the installation. During the driver installation phase you may see pop-ups like these:
 
-![driver verification](blog/04-oVirt-Installer-NonWHQL-Driver-Verification.jpg)
+![driver verification](/images/blog/04-oVirt-Installer-NonWHQL-Driver-Verification.jpg)
 
 You have to click Install each time such a pop-up appears, or you can optionally select the checkbox of Always trust software from Red Hat, Inc. before clicking on the Install button.
 
 Once the installation is finished you can click on the Finish button to close the installer.
 
-![installation finished](blog/05-oVirt-Installer-Finish.jpg)
+![installation finished](/images/blog/05-oVirt-Installer-Finish.jpg)
 
 That's it, now the Windows VM is ready to work in oVirt!

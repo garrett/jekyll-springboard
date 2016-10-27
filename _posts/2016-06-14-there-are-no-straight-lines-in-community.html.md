@@ -6,7 +6,7 @@ tags: community, open source, Fedora
 published: true
 comments: true
 ---
-![open road](blog/bkp/ocean-road.jpg) One of the things I have discovered while working with mapping platforms like OpenStreetMap is that there really isn't anything like a straight line in the world.
+![open road](/images/blog/bkp/ocean-road.jpg) One of the things I have discovered while working with mapping platforms like OpenStreetMap is that there really isn't anything like a straight line in the world.
 
 You think there are lots of straight lines out there&mdash;streets, property lines, boundaries&mdash;but there is really no such thing at all. Some of the deviations are geographical, with rivers and mountains and valleys carving up the world. And some are purely political; Mark Stein wrote a whole book on *How The States Got Their Shapes*, detailing the boundaries of various U.S. states and the historical and political intricacies of why the states are the way they are.
 

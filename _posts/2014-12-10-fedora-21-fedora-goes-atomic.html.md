@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![](blog/boxes.jpg) This week, [Fedora 21](https://getfedora.org/) (a.k.a., the release that [must not be named](http://www.eweek.com/enterprise-apps/nameless-fedora-21-linux-is-an-opportunity-for-growth.html)) hit FTPs mirrors everywhere, with a feature list led by a new organizational structure for the distribution. Fedora is now organized into three separate flavors: Workstation, Server, and Cloud.
+![](/images/blog/boxes.jpg) This week, [Fedora 21](https://getfedora.org/) (a.k.a., the release that [must not be named](http://www.eweek.com/enterprise-apps/nameless-fedora-21-linux-is-an-opportunity-for-growth.html)) hit FTPs mirrors everywhere, with a feature list led by a new organizational structure for the distribution. Fedora is now organized into three separate flavors: Workstation, Server, and Cloud.
 
 Fedora's [Cloud flavor](https://getfedora.org/en/cloud/) is further divided into a "traditional" base image for deploying the distribution on your cloud of choice, and an [Atomic Host](http://www.projectatomic.io/) image into which Fedora's [team of cloud wranglers](http://fedoraproject.org/wiki/Cloud_SIG) has herded a whole series of futuristic operating system technologies.
 
@@ -23,7 +23,7 @@ If you're playing with Fedora Atomic and want to extend or otherwise modify its 
 
 **Management:** Fedora Atomic also ships with a slick new web-based server management UI, called Cockpit, which exposes a range of basic services, storage, networking, and performance configuration options, as well as some really interesting controls over containers running on your host.
 
-![](blog/cockpit1.jpg){:align="right"}
+![](/images/blog/cockpit1.jpg){:align="right"}
 
 **Orchestration:** Fedora Atomic includes [Kubernetes](http://kubernetes.io/) for orchestration and management of its containerized applications. Kubernetes is a fairly young project, and as such, is somewhat rough around the edges and fairly fast-moving. I wrote a howto on the Project Atomic site for [getting started with Kubernetes](http://www.projectatomic.io/blog/2014/11/testing-kubernetes-with-an-atomic-host/) on Atomic.
 

@@ -6,7 +6,7 @@ tags: community, oVirt, RDO, Gluster, ManageIQ
 comments: true
 published: true
 ---
-![ATO 2015 Logo](blog/allthingsopen2015_sm.png) There is a growing discussion in the IT world about the ways in which we, as information technologists, will approach managing the world of the small.
+![ATO 2015 Logo](/images/blog/allthingsopen2015_sm.png) There is a growing discussion in the IT world about the ways in which we, as information technologists, will approach managing the world of the small.
 
 There are two aspects of current technology that fall into this category of "small"--containers and the Internet of Things. Both technologies were the subject of two intriguing keynotes at the opening session of [All Things Open](http://allthingsopen.org) yesterday.
 

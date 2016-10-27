@@ -6,7 +6,7 @@ tags: oVirt, community
 comments: true
 published: true
 ---
-![oVirt logo](blog/oVirt-logo.png) The OSAS team is excited to have another new community lead on board, welcoming Mikey Ariel, the new Community Lead for the [oVirt Project](http://www.ovirt.org).
+![oVirt logo](/images/blog/oVirt-logo.png) The OSAS team is excited to have another new community lead on board, welcoming Mikey Ariel, the new Community Lead for the [oVirt Project](http://www.ovirt.org).
 
 Mikey's journey to oVirt started over two years ago, in the earliest weeks of 2014, when a busload of Red Hat and Fedora team members made the 13-hour January trek from Brno, Czech Republic to the biggest free-software conference in the world: FOSDEM, in Brussels, Belgium. Among the passengers was Mikey, a new Red Hat employee on her way to her first tech conference, at the start of her professional journey into the world of free and open source software.
 

@@ -6,7 +6,7 @@ tags: oVirt, OpenStack, Atomic, Fedora, SELF
 comments: true
 published: true
 ---
-![SELF logo](blog/self-logo.png) The 2015 [SouthEast LinuxFest](http://www.southeastlinuxfest.org/) (SELF) made its seventh annual appearance last week, this year filling the quiet halls of the Sheraton Charlotte Airport with the voices of the free and open source community.
+![SELF logo](/images/blog/self-logo.png) The 2015 [SouthEast LinuxFest](http://www.southeastlinuxfest.org/) (SELF) made its seventh annual appearance last week, this year filling the quiet halls of the Sheraton Charlotte Airport with the voices of the free and open source community.
 
 This was my first time at the show, but it is most definitely a local favorite for those Red Hatters based in Raleigh. Charlotte is a city in transition, with some interesting spots to find culture and ridiculously good cuisine. The event itself had the feel of similar regional FLOSS conferences, along the lines of [SCALE](http://www.socallinuxexpo.org/scale/14x), [Texas Linux Fest](https://2015.texaslinuxfest.org/), and [LinuxFest Northwest](http://linuxfestnorthwest.org/2015): run by a team of dedicated (and slightly exhausted) volunteers that went out of their way to make attendees and exhibitors feel welcome.
 

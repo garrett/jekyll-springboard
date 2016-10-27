@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![FOSSAsia logo](blog/fossasia.png) There's a moment, when you're 9,412 miles away from home, standing in front of an audience of 300 or so people, when you have to wonder just how it is you ended up here.
+![FOSSAsia logo](/images/blog/fossasia.png) There's a moment, when you're 9,412 miles away from home, standing in front of an audience of 300 or so people, when you have to wonder just how it is you ended up here.
 
 Clearly there was a plane ride involved... a darn long one that involved three planes, including one with a broken engine that threw off the timing for the rest of the trip. Then there was the surreal experience of being escorted by two security guards through Narita airport because they thought my roll-up banner sign would not fit in the overhead compartment. And the massive thunderstorm that hit as I was walking through the national botanical gardens, getting me stuck in a very small shelter with lots of other people.
 

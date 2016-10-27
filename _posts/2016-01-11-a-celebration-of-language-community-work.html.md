@@ -6,7 +6,7 @@ tags: events, FUEL, Localization
 comments: true
 published: true
 ---
-![FUEL logo](blog/fuel-logo.png) The FUEL Project is one of the rare projects that emanated from India and is now associated with various language communities and organizations across the world.
+![FUEL logo](/images/blog/fuel-logo.png) The FUEL Project is one of the rare projects that emanated from India and is now associated with various language communities and organizations across the world.
 
 The FUEL GILT Conference is an annual event started by FUEL Project in 2013 that gives an opportunity to its participants to hear experts on various topics related to language technology. This was the third [FUEL GILT Conference](http://fuelproject.org/gilt2015/index) and, like previous events, it was all about showcasing and celebrating efforts being taken by individuals, organizations, and open language communities. Topics included, but were not limited to, Globalization, Localization, Internationalization, and Translation (GILT). This is the one of largest events across the globe that concentrates on GILT technology.
 
@@ -22,7 +22,7 @@ Open and Panel discussions, which were the last part of the first day of the con
 
 Dr. Hecht said that the increased use of Internet users in India is an important matter for Mozilla, its mission, and the open web. Dr. Murthy said “still the language technologies are to be matured to be usable by all sections of the society and will need a long way to achieve that”. Singh highlighted that C-DAC has already been involved in language computing since 1988, and it is important to associate many more organizations with the project and should understand the importance of FUEL project. Dr. Hemachandran Karah also talked on “Notions of equality and the developments in Digital Humanities.”
 
-![FUEL group shot](blog/bkp/fuel-gilt-conf-2015.png)
+![FUEL group shot](/images/blog/bkp/fuel-gilt-conf-2015.png)
 
 I gave the welcome address and shared updates about the FUEL project.
 

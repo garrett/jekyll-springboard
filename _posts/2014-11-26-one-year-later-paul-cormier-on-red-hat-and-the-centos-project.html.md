@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![](blog/CentOS_200x.png)When it comes to making sure people are happy and excited about [Red Hat joining forces with the CentOS Project](http://community.redhat.com/centos-faq/), one of the most important stakeholders inside of Red Hat is EVP & President of Products and Technologies, Paul Cormier. Paul was involved with the hard but important business decision that led to splitting the original Red Hat Linux into Fedora Linux and Red Hat Enterprise Linux, a move that helped inspire the creation of CentOS and other projects  to help fill the community-driven need for a slow-moving platform. 
+![](/images/blog/CentOS_200x.png)When it comes to making sure people are happy and excited about [Red Hat joining forces with the CentOS Project](http://community.redhat.com/centos-faq/), one of the most important stakeholders inside of Red Hat is EVP & President of Products and Technologies, Paul Cormier. Paul was involved with the hard but important business decision that led to splitting the original Red Hat Linux into Fedora Linux and Red Hat Enterprise Linux, a move that helped inspire the creation of CentOS and other projects  to help fill the community-driven need for a slow-moving platform. 
 
 In [a video interview on ServerWatch](http://www.serverwatch.com/server-trends/red-hat-pushes-forward-with-centos-video.html), Paul talks about how things are going since Red Hat formally joined the CentOS Project. Paul says, "I think it's been great for the community, I think it's been great for the CentOS guys, I think it's been great for us at Red Hat." 
 

@@ -8,7 +8,7 @@ comments: true
 published: true
 ---
 
-![](blog/fosdem-foreman.png) The [Satellite team](https://access.redhat.com/blogs/1169563) spent the first parts of February meeting and working
+![](/images/blog/fosdem-foreman.png) The [Satellite team](https://access.redhat.com/blogs/1169563) spent the first parts of February meeting and working
 with users of their upstream projects [Foreman](http://theforeman.org/learn_more.html) and [Katello](http://www.katello.org/).
 
 We started the week in Brussels at [FOSDEM](https://fosdem.org). As a

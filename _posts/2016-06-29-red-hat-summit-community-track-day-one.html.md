@@ -6,7 +6,7 @@ tags: community, open source, Summit
 published: true
 comments: true
 ---
-![Summit logo](blog/bkp/Redhat-Summit.png) You might have heard that several thousand people have converged on San Francisco for [Red Hat Summit](https://www.redhat.com/en/summit) at Moscone this week. One of the highlights for Summit this year (at least for me!) is the Community Track, part of the main Summit schedule for the first time this year. Missed it? Don't worry, there's more tomorrow!
+![Summit logo](/images/blog/bkp/Redhat-Summit.png) You might have heard that several thousand people have converged on San Francisco for [Red Hat Summit](https://www.redhat.com/en/summit) at Moscone this week. One of the highlights for Summit this year (at least for me!) is the Community Track, part of the main Summit schedule for the first time this year. Missed it? Don't worry, there's more tomorrow!
 
 READMORE
 

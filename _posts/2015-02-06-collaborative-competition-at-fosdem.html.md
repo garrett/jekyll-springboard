@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![](blog/brussels.png)As you walk down the crowded, narrow Rue des Bouchers on any given Brussels evening, you may find yourself assailed by restaurant barkers intent on getting you to swing into their establishment and dine on their fare. It's not exactly a welcoming gesture, particularly when some of the barkers embrace the situation and just tell you flat out they want your money.
+![](/images/blog/brussels.png)As you walk down the crowded, narrow Rue des Bouchers on any given Brussels evening, you may find yourself assailed by restaurant barkers intent on getting you to swing into their establishment and dine on their fare. It's not exactly a welcoming gesture, particularly when some of the barkers embrace the situation and just tell you flat out they want your money.
 
 This past weekend, five kilometers to the south at the Université libre de Bruxelles, other crowded, narrow pathways were full of folks promoting a different sort of fare: free and open source software. If you don't like crowds, [FOSDEM](https://fosdem.org/) would definitely a place to not be --except for the fact that so much goes on there. Far from unwelcoming, the sense of excitement and camaraderie at this annual event makes it a much more positive environment than similar events within FLOSS.
 

@@ -6,7 +6,7 @@ tags: Fedora, Flock, events
 comments: true
 published: true
 ---
-![Flock logo](blog/flock-logo-bg-300x174.png) Did you miss the Flock to Fedora conference, or just want to relive the greatness?
+![Flock logo](/images/blog/flock-logo-bg-300x174.png) Did you miss the Flock to Fedora conference, or just want to relive the greatness?
 
 With many workshops, presentations, and over 200 attendees, it's safe to say that Flock 2015 was a huge success.
 

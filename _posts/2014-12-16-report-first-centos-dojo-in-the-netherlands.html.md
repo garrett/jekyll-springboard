@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![](blog/CentOS_200x.png)Hosted by Schuberg Philis at their facilities near Amsterdam, the first [CentOS Dojo](http://wiki.centos.org/Events/Dojo/Amsterdam2014) in the Netherlands took place on December 2nd. Virtually all those who had RSVPed were already present from the start. The crowd consisted of an interesting, diverse mix of people with various backgrounds from across the Netherlands. Clearly CentOS caters to a wide audience. Fueled by fresh coffee, orange juice, and cookies, everybody eased into socializing in a relaxed atmosphere. 
+![](/images/blog/CentOS_200x.png)Hosted by Schuberg Philis at their facilities near Amsterdam, the first [CentOS Dojo](http://wiki.centos.org/Events/Dojo/Amsterdam2014) in the Netherlands took place on December 2nd. Virtually all those who had RSVPed were already present from the start. The crowd consisted of an interesting, diverse mix of people with various backgrounds from across the Netherlands. Clearly CentOS caters to a wide audience. Fueled by fresh coffee, orange juice, and cookies, everybody eased into socializing in a relaxed atmosphere. 
 
 When it was time to start, [Karanbir Singh](http://twitter.com/kbsingh) did the honors of kicking off the first Dutch Dojo. He told a captivated audience about how he got involved in the CentOS project in the early days, how he became the Project Leader, how the project evolved over the years, and then finished with how the project [joined forces](http://www.redhat.com/en/about/press-releases/red-hat-and-centos-join-forces) with Red Hat. 
 

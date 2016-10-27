@@ -6,7 +6,7 @@ tags: Atomic, atomicapp, LinuxCon, linuxcon-europe, containers
 comments: true
 published: true
 ---
-![Atomic Logo](blog/atomic.png) I recently attended [LinuxCon Europe 2015](http://events.linuxfoundation.org/events/linuxcon-europe) from 5-7 October, 2015 in Dublin, Ireland. I came with high expectations and goals and I am pleased to be able to say they were met.
+![Atomic Logo](/images/blog/atomic.png) I recently attended [LinuxCon Europe 2015](http://events.linuxfoundation.org/events/linuxcon-europe) from 5-7 October, 2015 in Dublin, Ireland. I came with high expectations and goals and I am pleased to be able to say they were met.
 
 The conference was combined with two other conferences (CloudOpen and Embedded Linux Conference Europe) and I expected it to be a painful to navigate a huge venue, where I wouldn't be able to find anyone. Instead, at about 1500-2000 people, the combined conference was very addressable, allowed for easy crossing of tracks, and presented a fantastic "hallway track." The organizers, sponsors, and venue did a fantastic job.
 

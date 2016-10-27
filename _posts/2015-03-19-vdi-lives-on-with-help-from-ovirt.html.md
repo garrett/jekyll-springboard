@@ -8,7 +8,7 @@ published: true
 ---
 
 
-![oVirt logo](blog/oVirt-logo.png) Hey, remember Virtual Desktop Infrastructure? Still wondering if people are actually using it? I know, right?
+![oVirt logo](/images/blog/oVirt-logo.png) Hey, remember Virtual Desktop Infrastructure? Still wondering if people are actually using it? I know, right?
 
 It seems that VDI, which a lot of people thought was very much a bypassed technology, is still a growing sector in IT... and free-software tools are lending VDI deployments a stable and free platform on which virtual desktops can be managed.
 

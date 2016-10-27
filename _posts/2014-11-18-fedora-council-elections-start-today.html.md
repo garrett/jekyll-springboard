@@ -7,7 +7,7 @@ published: true
 comments: true
 ---
 
-![](blog/fedora-logo.png) The [Fedora Project](http://fedoraproject.org) recently [changed its governance model](http://fedoramagazine.org/fedora-governance-proposal-approved/) and has begun to set up a [Council](https://fedoraproject.org/wiki/Council) that will replace the Fedora Board. 
+![](/images/blog/fedora-logo.png) The [Fedora Project](http://fedoraproject.org) recently [changed its governance model](http://fedoramagazine.org/fedora-governance-proposal-approved/) and has begun to set up a [Council](https://fedoraproject.org/wiki/Council) that will replace the Fedora Board. 
 
 As John Rose noted on *Fedora Magazine*, the Board is working on an orderly transition from the old model to the Council model, and part of that is electing two new members for the Council. 
 

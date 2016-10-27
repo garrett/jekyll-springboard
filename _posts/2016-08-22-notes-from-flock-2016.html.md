@@ -6,7 +6,7 @@ tags: Fedora, community, events
 published: true
 comments: true
 ---
-![Fedora logo](blog/fedora-logo.png) Fedora's [Flock](https://flocktofedora.org/) wrapped up two weeks ago, after a lovely week in Krakow, Poland. Here's an organizer's-eye view of the conference and some updates.
+![Fedora logo](/images/blog/fedora-logo.png) Fedora's [Flock](https://flocktofedora.org/) wrapped up two weeks ago, after a lovely week in Krakow, Poland. Here's an organizer's-eye view of the conference and some updates.
 
 Overall, I think this was a great event. At least, the feedback I got from folks who attended was that it was productive and they had a good time.
 

@@ -7,7 +7,7 @@ comments: true
 published: true
 ---
 
-![Download Icon](blog/download-icon.png) Most people who went to school learned to count, a skill basic enough to be mastered by everyone. Yet, we often forget to use the necessary amount of critical thinking with counting, which leads to some problems--especially in free software.
+![Download Icon](/images/blog/download-icon.png) Most people who went to school learned to count, a skill basic enough to be mastered by everyone. Yet, we often forget to use the necessary amount of critical thinking with counting, which leads to some problems--especially in free software.
 
 Working for a company that started as a Linux distribution provider, it will surprise no one by saying that my team is often asked to acquire some statistics about the downloads of packages in order to estimate community engagement and the number of users of the project.
 
