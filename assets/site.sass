@@ -8,8 +8,6 @@ $base-font-weight: 400
 $small-font-size:  $base-font-size * 0.875
 $base-line-height: 1.5
 
-$spacing-unit:     $gl-gutter
-
 $text-color:       #111
 $background-color: #fdfdfd
 $brand-color:      #2a7ae2
@@ -30,25 +28,19 @@ $nav-active: linear-gradient(to top, #fff 6px, rgba(#fff,0.2) 6px, transparent 9
 
 $nav-mobile-menu: #720000
 
-// Minima also includes a mixin for defining media queries.
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-
 // Import partials from the `minima` theme.
 @import "minima"
 
-// Events and upcoming support.
-// Comment out or remove if you don't use calendar or upcoming features.
-@import "lib/events"
+// Import grid (see http://gridlex.devlint.fr/ for docs)
+@import "vendor/gridlex"
+
+@import "lib/nav"
 @import "lib/pagination"
 @import "lib/blog"
-@import "lib/navbar"
+@import "lib/stickyfooter"
 @import "lib/scrollbar-on"
+@import "lib/events"
+//@import "lib/stickyheader"
 
 ///////////////////////////////////////////////////////////////////////
 
