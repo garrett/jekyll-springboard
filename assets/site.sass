@@ -45,77 +45,75 @@ $nav-mobile-menu: #720000
 // Events and upcoming support.
 // Comment out or remove if you don't use calendar or upcoming features.
 @import "lib/events"
-@import "lib/pagination.sass"
-@import "lib/blog.sass"
-@import "lib/navbar.sass"
+@import "lib/pagination"
+@import "lib/blog"
+@import "lib/navbar"
+@import "lib/scrollbar-on"
 
 ///////////////////////////////////////////////////////////////////////
 
 @import "site/contributions"
 
-h1, h2, h3, h4, h5, h6, nav a
+h1, h2, h3, h4, h5, h6
   font-family: overpass, sans-serif
   font-weight: 600
 
 h1, h2, h3, h4, h5, h6, nav a
   color: #777
 
-nav a
-  font-size: 150%
-
 header.masthead
   background: #a40000 url(../images/header-transparent.png) no-repeat 100% 0
+
+  h1, h2
+    margin: 1rem 1.5rem
+    color: #fff
+    white-space: nowrap
 
   .logo
     height: auto
     width: 130px
-    margin: 2rem 2rem 1.5rem
+    // Compensate for RH logo text being a little off vertically
+    position: relative
+    top: -4px
 
-  nav
-    background: rgba(black, 0.3)
+  @media screen and (min-width: $on-laptop + 1)
+    nav a
+      font-size: 150%
 
-    > ul
+    .hgroup, h1, h2
       display: flex
 
-      > li:last-child
-        margin-left: auto
+    .hgroup
+      padding: 1rem 0
+      align-items: baseline
+      justify-content: space-between
 
-  .hgroup,
-  nav > ul
-    max-width: $content-width
-    margin: 0 auto
+    nav
+      background: rgba(black, 0.3)
 
-  .hgroup
-    position: relative
+      // Shove search to the right
+      > ul
+        display: flex
 
-  h2
-    color: #fff
+        > li:last-child
+          margin-left: auto
 
-    @media screen and (min-width: $on-laptop + 1)
-      font-size: 40px
-      line-height: 46px
-      margin: 0 20px 0 0
-      padding: 0
-      position: absolute
-      right: 0
-      top: 34px
+    // Constrain heading to content width
+    .hgroup,
+    nav > ul
+      max-width: $content-width
+      margin: 0 auto
 
-  @media screen and (max-width: $on-laptop)
-    .logo
-      margin: 0
-
+  @media screen and (max-width: $on-laptop) and (min-width: $on-palm)
     h1, h2
-      margin: 1rem
       display: inline-block
 
     h2
-      position: relative
-      top: 5px
-      font-size: 1.5rem
+      margin-left: 0
 
 .mission
   background-color: #fff7b2
-  margin: 10px -20px 40px
+  margin: 10px -.5rem 40px
   padding: 1.5em 2.75em 1em
   font-size: 130%
 
