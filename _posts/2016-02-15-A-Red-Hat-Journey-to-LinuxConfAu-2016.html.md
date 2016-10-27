@@ -44,7 +44,7 @@ In addition, Jonathan Corbet from Linux Weekly News is a regular attendee and yo
 
 ## Day 0&#8212;Sunday 31st Jan
 
-![Bdale Garbeee photo](/images/https://farm2.staticflickr.com/1483/24700902036_12a8876868.jpg) There is a bit of an linux.conf.au tradition that a newbie introduction session, plus a speaker briefing, are held on the Sunday afternoon before the conference. Normally Rusty Russell runs the newbie session but this year he was awaiting the arrival of his latest offspring, so [Bdale Garbee](https://en.wikipedia.org/wiki/Bdale_Garbee) and Hugh Blemings (the new Linux Australia President) stepped in.
+![Bdale Garbeee photo](https://farm2.staticflickr.com/1483/24700902036_12a8876868.jpg) There is a bit of an linux.conf.au tradition that a newbie introduction session, plus a speaker briefing, are held on the Sunday afternoon before the conference. Normally Rusty Russell runs the newbie session but this year he was awaiting the arrival of his latest offspring, so [Bdale Garbee](https://en.wikipedia.org/wiki/Bdale_Garbee) and Hugh Blemings (the new Linux Australia President) stepped in.
 
 ## Day 1&#8212;Monday 1st Feb
 
@@ -68,7 +68,7 @@ The Live Migration of Containers session was a touch LXC/LXD-specific and severa
 
 ### Special Mentions
 
-![Zac Dover photo](/images/https://farm2.staticflickr.com/1537/24394391839_8f4ec3cd9c.jpg) Thanks to Zac Dover for running the Documentation Mini-Conf and the large number of Red Hatter's who attended from Brisbane. It helped to balance up the Rackspace presence in the room.
+![Zac Dover photo](https://farm2.staticflickr.com/1537/24394391839_8f4ec3cd9c.jpg) Thanks to Zac Dover for running the Documentation Mini-Conf and the large number of Red Hatter's who attended from Brisbane. It helped to balance up the Rackspace presence in the room.
 
 There was a new Open Source and Bio-informatics mini-conf this year that gathered a lot of interest, and I might try and catch some of their sessions on video at a later date, based on feedback.
 
@@ -78,9 +78,9 @@ Monday closed with the [Linux Australia](https://linux.org.au/) AGM, where their
 
 * [Tuesday Schedule&#8212;linux.conf.au 2016](http://lcabythebay.org.au/programme/schedule/tuesday)
 
-![George Fong photo](/images/https://farm2.staticflickr.com/1575/24135091303_169b88a6a7.jpg) After an interesting [keynote from George Fong](https://www.youtube.com/watch?v=5E589-0kK20), my focus was the System Administrator Mini-Conf, which has been running for over 10 years as part of LCA.
+![George Fong photo](https://farm2.staticflickr.com/1575/24135091303_169b88a6a7.jpg) After an interesting [keynote from George Fong](https://www.youtube.com/watch?v=5E589-0kK20), my focus was the System Administrator Mini-Conf, which has been running for over 10 years as part of LCA.
 
-![Mini-conf photo](/images/https://pbs.twimg.com/media/CaKvd9MUYAAazIx.jpg) I was (un)lucky to be the opening speaker at the Sys Admin mini-conf, providing a re-work of an internal talk I gave at Red Hat Tech Exchange APAC last year
+![Mini-conf photo](https://pbs.twimg.com/media/CaKvd9MUYAAazIx.jpg) I was (un)lucky to be the opening speaker at the Sys Admin mini-conf, providing a re-work of an internal talk I gave at Red Hat Tech Exchange APAC last year
 
 * [Is that a data-center in your pocket?](https://www.youtube.com/watch?v=4ZnvjJSmbO4)
 
@@ -105,7 +105,7 @@ The day finished with the Professional Delegates Networking session out at Littl
 
 * [Wednesday Schedule&#8212;linux.conf.au 2016](http://lcabythebay.org.au/programme/schedule/wednesday)
 
-![Catarina Mota photo](/images/https://farm2.staticflickr.com/1462/24155112923_bd3712f152.jpg) Quite a different [keynote from Catarina Mota](https://www.youtube.com/watch?v=CpYsrpnDtsE) started our day, including how to build an Open Source House, before we dived into the main conference program.
+![Catarina Mota photo](https://farm2.staticflickr.com/1462/24155112923_bd3712f152.jpg) Quite a different [keynote from Catarina Mota](https://www.youtube.com/watch?v=CpYsrpnDtsE) started our day, including how to build an Open Source House, before we dived into the main conference program.
 
 This year the Papers Committee had 300 submissions for the 75 slots spread across five streams, so the pedigree of talks is generally very high.
 
@@ -125,7 +125,7 @@ This year the Papers Committee had 300 submissions for the 75 slots spread acros
 * [Tutorial: Identity Management with FreeIPA](https://www.youtube.com/watch?v=VLhNcirKFDs) Follow up on Fraser Tweedale's FreeIPA talk from last year.
 * [Challenges when Scaling: Adventures in Swift's Sharding](https://www.youtube.com/watch?v=MFPNA3tnWcM)
 
-![LCA2016 - Wednesday](/images/https://farm2.staticflickr.com/1524/24710463531_8d7a93a7e2.jpg)
+![LCA2016 - Wednesday](https://farm2.staticflickr.com/1524/24710463531_8d7a93a7e2.jpg)
 
 The day ended with the annual Penguin Dinner at the end of Geelong's Pier. A great opportunity to socialize and network over dinner.
 
@@ -133,7 +133,7 @@ The day ended with the annual Penguin Dinner at the end of Geelong's Pier. A gre
 
 * [Thursday Schedule - linux.conf.au 2016](http://lcabythebay.org.au/programme/schedule/thursday)
 
-![LCA2016 - Thursday](/images/https://farm2.staticflickr.com/1562/24508771320_2679181173.jpg) Jono Bacon last attended linux.conf.au back in 2007 in Sydney, which was my first LCA. I've bumped into Jono at various conferences in the US since then and I have to say his [Keynote on Community 3.0](https://www.youtube.com/watch?v=LToxpzWcMxc) was one of his best. As former community manager at Canonical, and current Director of Community at GitHub, he presented his perspective on how we should be building and maintaining communities today. Overall, this was a hard day due to numerous conflicting sessions.
+![LCA2016 - Thursday](https://farm2.staticflickr.com/1562/24508771320_2679181173.jpg) Jono Bacon last attended linux.conf.au back in 2007 in Sydney, which was my first LCA. I've bumped into Jono at various conferences in the US since then and I have to say his [Keynote on Community 3.0](https://www.youtube.com/watch?v=LToxpzWcMxc) was one of his best. As former community manager at Canonical, and current Director of Community at GitHub, he presented his perspective on how we should be building and maintaining communities today. Overall, this was a hard day due to numerous conflicting sessions.
 
 ### Sessions Attended
 
@@ -158,19 +158,19 @@ Thursday also featured the [Jobs BoF](https://linux.conf.au/wiki/Jobs_Page) duri
 * [Speaking their language: How to write for technical and non-technical audiences](https://www.youtube.com/watch?v=DcsfDpEWG88) Great to see Rikki Endsley join us in Geelong this year, and I hope she returns despite the lack of warm water at her accommodation.
 * [Computer Performance Microscopy with SHIM](https://www.youtube.com/watch?v=iDEIHkwgaUc) Not a talk I was going to see, but very highly recommended by a couple of attendees.
 
-![LCA2016 - Thursday](/images/https://farm2.staticflickr.com/1522/24194233174_ccd5d11ba3.jpg) The day finished with the Speakers Dinner for main conference speakers, where I believe a couple of the speakers persuaded the strings to "[Rick Roll](https://www.youtube.com/watch?v=dQw4w9WgXcQ)" the event, and also play [The Rains of Castamere](http://gameofthrones.wikia.com/wiki/The_Rains_of_Castamere_%2528song%2529).
+![LCA2016 - Thursday](https://farm2.staticflickr.com/1522/24194233174_ccd5d11ba3.jpg) The day finished with the Speakers Dinner for main conference speakers, where I believe a couple of the speakers persuaded the strings to "[Rick Roll](https://www.youtube.com/watch?v=dQw4w9WgXcQ)" the event, and also play [The Rains of Castamere](http://gameofthrones.wikia.com/wiki/The_Rains_of_Castamere_%2528song%2529).
 
 ## Day 5&#8212;Friday 5 Feb
 
 * [Friday Schedule - linux.conf.au 2016](http://lcabythebay.org.au/programme/schedule/friday)
 
-![LCA2016 - Friday](/images/https://farm2.staticflickr.com/1547/24195357993_9d5ce027d9.jpg) By this point if you haven't paced yourself then you're likely to miss the opening keynote, which would be a shame as Genevieve Bell (Intel Fellow and cultural anthropologist) was [simply amazing and totally engaged her audience](https://www.youtube.com/watch?v=QqADuKyBNMc). A key part of her role is to help Intel better understand their customers. I particularly liked the part where she decided to treat her team at Intel as another "Tribe."
+![LCA2016 - Friday](https://farm2.staticflickr.com/1547/24195357993_9d5ce027d9.jpg) By this point if you haven't paced yourself then you're likely to miss the opening keynote, which would be a shame as Genevieve Bell (Intel Fellow and cultural anthropologist) was [simply amazing and totally engaged her audience](https://www.youtube.com/watch?v=QqADuKyBNMc). A key part of her role is to help Intel better understand their customers. I particularly liked the part where she decided to treat her team at Intel as another "Tribe."
 
 Friday, like Thursday, had multiple session clashes, so the is plenty for me to catch up on later.
 
 ### Sessions Attended
 
-![LCA2016 - Friday](/images/https://farm2.staticflickr.com/1468/24484694519_5e3b1d8e0d.jpg)
+![LCA2016 - Friday](https://farm2.staticflickr.com/1468/24484694519_5e3b1d8e0d.jpg)
 
 * [Helicopters and rocket-planes](https://www.youtube.com/watch?v=kifraO9yMrk) Andrew Tridgell could read the Yellow Pages and give an interesting and inspiring talk. Sadly, I missed the end as I had to jump on some customer calls.
 * [Copyleft For the Next Decade: A Comprehensive Plan](https://www.youtube.com/watch?v=5mnHebVSUb0) I'm so pleased we brought Bradley Kuhn to Auckland for last years conference as again his talk on GPL and Free Software was a highlight of the conference. Anyone and everyone in Red Hat should watch this session as well as last year's.
@@ -181,7 +181,7 @@ Friday, like Thursday, had multiple session clashes, so the is plenty for me to 
   There are always some interesting Lightning talks at LCA including
   * [My Own "Call to ARM"](https://youtu.be/KERsn72QESE?t=1m7s)
   * [Plus a rather unexpected song](https://youtu.be/KERsn72QESE?t=31m10s)<br>
-    ![LCA2016 - Friday](/images/https://farm2.staticflickr.com/1497/24734507592_6601b3fbc0.jpg)
+    ![LCA2016 - Friday](https://farm2.staticflickr.com/1497/24734507592_6601b3fbc0.jpg)
 * and then we closed the conference out until next year.
 
 ### Recommended Sessions I'll Catch Later

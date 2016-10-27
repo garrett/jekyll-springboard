@@ -44,7 +44,7 @@ In response, we have plotted out a series of steps to make the Gluster Community
   * Graduation of incubating projects. Leading candidates thus far include [gluster-swift](http://forge.gluster.org/gluster-swift), [pmux](https://forge.gluster.org/pmux) and [gflocator](https://forge.gluster.org/gflocator). The former cements our standing in the OpenStack object storage camp, and the latter two form a very interesting project that allows users to conduct file-based Map/Reduce jobs on distributed Gluster volumes.
 
 	
-  * [GlusterFS 3.4](http://download.gluster.org/pub/gluster/glusterfs/3.4/) – we are very very close to GA. Hang tight ![:)](/images/http://www.gluster.org/wp-includes/images/smilies/icon_smile.gif) This is the release that includes [QEMU integration and libgfapi](http://www.gluster.org/2012/11/integration-with-kvmqemu/), a new client library for developers
+  * [GlusterFS 3.4](http://download.gluster.org/pub/gluster/glusterfs/3.4/) – we are very very close to GA. Hang tight ![:)](http://www.gluster.org/wp-includes/images/smilies/icon_smile.gif) This is the release that includes [QEMU integration and libgfapi](http://www.gluster.org/2012/11/integration-with-kvmqemu/), a new client library for developers
 
 	
   * Much better performance for the vast majority of workloads. This will become more apparent when you try the imminent releases of 3.3.2 or 3.4.0.
