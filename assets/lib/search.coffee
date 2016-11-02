@@ -18,7 +18,7 @@ debounce = (callback, delay) ->
 loadsearchIndex = ->
   return if ajax.state() == "resolved" && ajax.state() == "pending"
 
-  $.get '/search.json', (data) =>
+  $.get '{{ site.baseurl }}/search.json', (data) =>
     pages = data.pages
     ajax.resolve data
 
