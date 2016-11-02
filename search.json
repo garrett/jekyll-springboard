@@ -1,18 +1,11 @@
 ---
 layout:
 ---
-
-{% comment %}
-{{ site.documents | jsonify }}
-{% assign _alltext = site.documents | map: "content" %}
-{% assign _words = _alltext | markdownify | strip_html | downcase | remove: "," | replace: ". ", " " | remove: "!" | remove: "?" | replace: ": ", " " | remove: "(" | remove: ")" | remove: ";" | split: " " | sort | uniq %}
-{% endcomment %}
-
-{% assign _words = "" %}
-{% assign _wordlists = "" | split: "," %}
-
-{
-"pages": [
+{%
+  assign _words = ""
+  %}{%
+  assign _wordlists = "" | split: ","
+%}{ "pages": [
   {% for page in site.documents %}{% capture codeblock %}
     {% assign _content = page.content | markdownify | strip_html | remove: site.excerpt_separator | strip %}
 
@@ -41,17 +34,18 @@ layout:
       | remove: '?'
       | remove: '“'
       | remove: '”'
+      | replace: "‘", "'"
+      | replace: "’", "'"
+      | replace: "'s ", " "
       | replace: " '", " "
       | replace: "' ", " "
       | replace: '. ', ' '
+      | replace: '. ', ' '
       | replace: '/', ' '
       | replace: ': ', ' '
-      | replace: " and ", " "
-      | replace: " like ", " "
-      | replace: " the ", " "
       | split: ' '
       | sort
-      | uniq 
+      | uniq
       | where_exp: "item", "item.size > 3"
       | where_exp: "item", "item.size < 10"
       %}
@@ -59,7 +53,7 @@ layout:
 
     {% assign _words = _words | append: "," | append: _wordlist_string %}
     {% assign _wordlists = _wordlists | push: _wordlist %}
-      
+
     {% assign _id = forloop.index | minus: 1 %}
 
     {% endcapture %}{% assign codeblock = nil %}
@@ -68,7 +62,7 @@ layout:
       "title": {{ page.title | strip | jsonify }},
       "slug": {{ page.slug | strip | jsonify }},
       "url": "{{ site.baseurl }}{{ page.url }}",
-      "category": {{ page.category | strip | jsonify }},
+      "category": {{ page.category | join: "," | strip | jsonify }},
       "tags": {{ page.tags | join: "," | strip | replace: ", ", "," | replace: ",,", "," | downcase | split: "," | sort | uniq | jsonify }},
       "date"     : "{{ page.date | date_to_xmlschema }}",
       "wordcount": {{ _content | remove: site.excerpt_separator | number_of_words }},
@@ -90,11 +84,11 @@ layout:
     if word_size > 2 and word_size < 10 %}
       { {{ _word | jsonify }}: [ {%
         capture pagelist %}{%
-          for _wordlist in _wordlists %}{% 
-            if _wordlist contains _word %},{{ 
-              forloop.index }}{% 
+          for _wordlist in _wordlists %}{%
+            if _wordlist contains _word %},{{
+              forloop.index }}{%
             endif %}{%
-          endfor %} ]}{% 
+          endfor %} ]}{%
         endcapture %}{{ pagelist | remove_first: ',' }}{%
       unless forloop.last %},{% endunless %}{%
     endif %}{%
