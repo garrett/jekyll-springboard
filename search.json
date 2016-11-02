@@ -13,8 +13,7 @@ layout:
 
 {
 "pages": [
-  {% for page in site.documents %}
-
+  {% for page in site.documents %}{% capture codeblock %}
     {% assign _content = page.content | markdownify | strip_html | remove: site.excerpt_separator | strip %}
 
     {% if _content contains site.excerpt_separator %}
@@ -23,15 +22,47 @@ layout:
       {% assign _blurb = _content | truncatewords: 250 %}
     {% endif %}
 
-    {% assign _wordlist = _content | downcase | remove: "," | remove: '"' | replace: ". ", " " | remove: "!" | remove: "?" | replace: ": ", " " | remove: "(" | remove: ")" | remove: ";" | split: " " | sort | uniq %}
-    {% assign _wordlist_string = _wordlist | join: "," %}
+    {% assign _wordlist = _content
+      | downcase
+      | remove: '!'
+      | remove: '"'
+      | remove: '#'
+      | remove: '$'
+      | remove: '%'
+      | remove: '&'
+      | remove: '('
+      | remove: ')'
+      | remove: '*'
+      | remove: '+'
+      | remove: ','
+      | remove: '-'
+      | remove: ';'
+      | remove: '='
+      | remove: '?'
+      | remove: '“'
+      | remove: '”'
+      | replace: " '", " "
+      | replace: "' ", " "
+      | replace: '. ', ' '
+      | replace: '/', ' '
+      | replace: ': ', ' '
+      | replace: " and ", " "
+      | replace: " like ", " "
+      | replace: " the ", " "
+      | split: ' '
+      | sort
+      | uniq 
+      | where_exp: "item", "item.size > 3"
+      | where_exp: "item", "item.size < 10"
+      %}
+    {% assign _wordlist_string = _wordlist | join: ',' %}
 
     {% assign _words = _words | append: "," | append: _wordlist_string %}
     {% assign _wordlists = _wordlists | push: _wordlist %}
       
     {% assign _id = forloop.index | minus: 1 %}
 
-    {% comment %}
+    {% endcapture %}{% assign codeblock = nil %}
     {
       "id": {{ _id }},
       "title": {{ page.title | strip | jsonify }},
@@ -41,26 +72,35 @@ layout:
       "tags": {{ page.tags | join: "," | strip | replace: ", ", "," | replace: ",,", "," | downcase | split: "," | sort | uniq | jsonify }},
       "date"     : "{{ page.date | date_to_xmlschema }}",
       "wordcount": {{ _content | remove: site.excerpt_separator | number_of_words }},
-      "content": {{ _content | remove: site.excerpt_separator | jsonify }},
+      "wordlist": {{ _wordlist | join: " " | jsonify }},
       "excerpt": {{ _blurb | jsonify }}
      }{% unless forloop.last %},{% endunless %}
+    {% comment %}
     {% endcomment %}
   {% endfor %}
+
+{% comment %}
 ],
 
 {% assign _words_full = _words | split: "," | sort | uniq %}
-
-
-"words": [
-  {% for _word in _words_full %}
-    { {{ _word | jsonify }}: [
-      {% for _wordlist in _wordlists %}
-        {% if _wordlist contains _word %}
-          forloop.index{% unless forloop.last %},{% endunless %}
-        {% endif %}
-      {% endfor %}
-    ] }{% unless forloop.last %},{% endunless %}
-  {% endfor %}
+"words": [ {%
+  for _word in _words_full %}{%
+    if _word contains "a" or _word contains "e" or _word contains "i" or _word contains "o" or _word contains "u" %}{%
+    assign word_size = _word | size %}{%
+    if word_size > 2 and word_size < 10 %}
+      { {{ _word | jsonify }}: [ {%
+        capture pagelist %}{%
+          for _wordlist in _wordlists %}{% 
+            if _wordlist contains _word %},{{ 
+              forloop.index }}{% 
+            endif %}{%
+          endfor %} ]}{% 
+        endcapture %}{{ pagelist | remove_first: ',' }}{%
+      unless forloop.last %},{% endunless %}{%
+    endif %}{%
+    endif %}{%
+  endfor %}
+{% endcomment %}
 ]
 
 }
