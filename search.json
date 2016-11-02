@@ -1,0 +1,68 @@
+---
+layout:
+---
+
+{% comment %}
+{{ site.documents | jsonify }}
+{% assign _alltext = site.documents | map: "content" %}
+{% assign _words = _alltext | markdownify | strip_html | downcase | remove: "," | replace: ". ", " " | remove: "!" | remove: "?" | replace: ": ", " " | remove: "(" | remove: ")" | remove: ";" | split: " " | sort | uniq %}
+{% endcomment %}
+
+{% assign _words = "" %}
+{% assign _wordlists = "" | split: "," %}
+
+{
+"pages": [
+  {% for page in site.documents %}
+
+    {% assign _content = page.content | markdownify | strip_html | remove: site.excerpt_separator | strip %}
+
+    {% if _content contains site.excerpt_separator %}
+      {% assign _blurb = _content | split: site.excerpt_separator | first %}
+    {% else %}
+      {% assign _blurb = _content | truncatewords: 250 %}
+    {% endif %}
+
+    {% assign _wordlist = _content | downcase | remove: "," | remove: '"' | replace: ". ", " " | remove: "!" | remove: "?" | replace: ": ", " " | remove: "(" | remove: ")" | remove: ";" | split: " " | sort | uniq %}
+    {% assign _wordlist_string = _wordlist | join: "," %}
+
+    {% assign _words = _words | append: "," | append: _wordlist_string %}
+    {% assign _wordlists = _wordlists | push: _wordlist %}
+      
+    {% assign _id = forloop.index | minus: 1 %}
+
+    {% comment %}
+    {
+      "id": {{ _id }},
+      "title": {{ page.title | strip | jsonify }},
+      "slug": {{ page.slug | strip | jsonify }},
+      "url": "{{ site.baseurl }}{{ page.url }}",
+      "category": {{ page.category | strip | jsonify }},
+      "tags": {{ page.tags | join: "," | strip | replace: ", ", "," | replace: ",,", "," | downcase | split: "," | sort | uniq | jsonify }},
+      "date"     : "{{ page.date | date_to_xmlschema }}",
+      "wordcount": {{ _content | remove: site.excerpt_separator | number_of_words }},
+      "content": {{ _content | remove: site.excerpt_separator | jsonify }},
+      "excerpt": {{ _blurb | jsonify }}
+     }{% unless forloop.last %},{% endunless %}
+    {% endcomment %}
+  {% endfor %}
+],
+
+{% assign _words_full = _words | split: "," | sort | uniq %}
+
+
+"words": [
+  {% for _word in _words_full %}
+    { {{ _word | jsonify }}: [
+      {% for _wordlist in _wordlists %}
+        {% if _wordlist contains _word %}
+          forloop.index{% unless forloop.last %},{% endunless %}
+        {% endif %}
+      {% endfor %}
+    ] }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
+
+}
+
+
