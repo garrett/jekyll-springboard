@@ -1,6 +1,8 @@
 ---
 ---
 
+"use strict"
+
 $ ->
   $form = $('#search-form')
   $input = $('#search-input')
@@ -11,7 +13,7 @@ $ ->
   $progress = $('#progress')
   $template = $('#template')
 
-  @searchIndex = null
+  searchIndex = null
 
   ajax = new $.Deferred()
 
@@ -21,7 +23,7 @@ $ ->
   generateWordList = ->
     window.wordlistAll = {}
 
-    @searchIndex.pages.forEach (obj, pageId) ->
+    searchIndex.pages.forEach (obj, pageId) ->
       obj.wordlist.split(' ').forEach (word) ->
         wordlistAll[word] ||= []
         try
@@ -30,15 +32,13 @@ $ ->
           console.log "Problem:", word, pageId
         return
 
-    console.log wordlistAll
-
-    @searchIndex.words = wordlistAll
+    searchIndex.words = wordlistAll
 
   loadsearchIndex = ->
     return if ajax.state() == "resolved" && ajax.state() == "pending"
 
-    $.get '{{ site.baseurl }}/search.json', (data)=>
-      @searchIndex = data
+    $.get '{{ site.baseurl }}/search.json', (data)->
+      searchIndex = data
       do generateWordList
       ajax.resolve data
 
@@ -187,7 +187,6 @@ $ ->
 
   $form
     .on 'keypress', (e)->
-      console.log "typing"
       switch e.key
         when "Tab", "Down", "ArrowDown"
           $('#similar a:first,#results a').first().focus()
