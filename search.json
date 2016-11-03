@@ -12,7 +12,7 @@ layout:
     {% if _content contains site.excerpt_separator %}
       {% assign _blurb = _content | split: site.excerpt_separator | first %}
     {% else %}
-      {% assign _blurb = _content | truncatewords: 250 %}
+      {% assign _blurb = _content %}
     {% endif %}
 
     {% assign _wordlist = _content
@@ -25,10 +25,11 @@ layout:
       | remove: '&'
       | remove: '('
       | remove: ')'
+      | remove: '['
+      | remove: ']'
       | remove: '*'
       | remove: '+'
       | remove: ','
-      | remove: '-'
       | remove: ';'
       | remove: '='
       | remove: '?'
@@ -39,14 +40,19 @@ layout:
       | replace: "'s ", " "
       | replace: " '", " "
       | replace: "' ", " "
-      | replace: '. ', ' '
-      | replace: '. ', ' '
+      | replace: '-', ' '
+      | replace: '–', ' '
+      | replace: '—', ' '
+      | replace: '@', ' '
+      | replace: '...', ' '
+      | replace: '…', ' '
+      | replace: '.', ' '
       | replace: '/', ' '
-      | replace: ': ', ' '
+      | replace: ':', ' '
       | split: ' '
       | sort
       | uniq
-      | where_exp: "item", "item.size > 3"
+      | where_exp: "item", "item.size > 2"
       | where_exp: "item", "item.size < 10"
       %}
     {% assign _wordlist_string = _wordlist | join: ',' %}
@@ -64,13 +70,12 @@ layout:
       "url": "{{ site.baseurl }}{{ page.url }}",
       "category": {{ page.category | join: "," | strip | jsonify }},
       "tags": {{ page.tags | join: "," | strip | replace: ", ", "," | replace: ",,", "," | downcase | split: "," | sort | uniq | jsonify }},
-      "date"     : "{{ page.date | date_to_xmlschema }}",
+      "date" : "{{ page.date | date_to_xmlschema }}",
+      "datestring" : "{{ page.date | date: '%A %-d %B %Y' }}",
       "wordcount": {{ _content | remove: site.excerpt_separator | number_of_words }},
       "wordlist": {{ _wordlist | join: " " | jsonify }},
-      "excerpt": {{ _blurb | jsonify }}
+      "summary": {{ _blurb | truncatewords: 50 | jsonify }}
      }{% unless forloop.last %},{% endunless %}
-    {% comment %}
-    {% endcomment %}
   {% endfor %}
 
 {% comment %}
