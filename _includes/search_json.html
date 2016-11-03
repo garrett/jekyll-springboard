@@ -2,8 +2,7 @@
   assign _words = ""
   %}{%
   assign _wordlists = "" | split: ","
-%}{ "pages": [
-
+%}{"pages": [
   {%
     capture _docs
       %}{%
@@ -17,34 +16,9 @@
       %}{%
     endcapture
   %}
-
   {{ _docs }}{%
     if _docs and _pages 
     %},{%
     endif 
   %}{{ _pages }}
-
-{% comment %}
-],
-
-{% assign _words_full = _words | split: "," | sort | uniq %}
-"words": [ {%
-  for _word in _words_full %}{%
-    if _word contains "a" or _word contains "e" or _word contains "i" or _word contains "o" or _word contains "u" %}{%
-    assign word_size = _word | size %}{%
-    if word_size > 2 and word_size < 10 %}
-      { {{ _word | jsonify }}: [ {%
-        capture pagelist %}{%
-          for _wordlist in _wordlists %}{%
-            if _wordlist contains _word %},{{
-              forloop.index }}{%
-            endif %}{%
-          endfor %} ]}{%
-        endcapture %}{{ pagelist | remove_first: ',' }}{%
-      unless forloop.last %},{% endunless %}{%
-    endif %}{%
-    endif %}{%
-  endfor %}
-{% endcomment %}
-]
-}
+]}
