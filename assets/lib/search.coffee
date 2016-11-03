@@ -17,7 +17,7 @@ $ ->
 
   ajax = new $.Deferred()
 
-  wordsplit = /[\s,;!?=+"'\\\/]+/
+  wordsplit = /[\s,;!?=\+"'\\\/]+/
   typeTimer = null
 
   generateWordList = ->
@@ -49,7 +49,7 @@ $ ->
   displayResults = (words, matches, similar) ->
     $pending = $('<div class="pending"/>')
     pages = searchIndex.pages
-    text = $input.val().toLowerCase().replace(/ ?-\w+/g, '')
+    text = $input.val().toLowerCase().replace(/ ?-\w+/g, '').replace(/\+/g, '')
 
     $('#results-none').hide()
 
@@ -137,6 +137,7 @@ $ ->
     $.when(ajax).done (data)->
       text = $input.val()
       words = text.toLowerCase().trim().split(wordsplit)
+      console.log words
       similar = []
       matchers = {matches: [], antimatches: []}
 
