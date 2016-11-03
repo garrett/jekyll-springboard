@@ -17,7 +17,7 @@ $ ->
 
   ajax = new $.Deferred()
 
-  wordsplit = /[\s,;!?="'\\\/]+/
+  wordsplit = /[\s,;!?=+"'\\\/]+/
   typeTimer = null
 
   generateWordList = ->
