@@ -1,6 +1,7 @@
 ---
 title: "Red Hat Community"
 layout: default
+index: false
 ---
 
 {:.mission}
