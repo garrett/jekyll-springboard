@@ -54,7 +54,7 @@ $ ->
     $('#results-none').hide()
 
     if matches.length > 0
-      fakedate = '1977-01-01'
+      fakedate = (new Date).toISOString()
 
       # Sort by date
       matches.sort (a, b) ->
@@ -137,7 +137,6 @@ $ ->
     $.when(ajax).done (data)->
       text = $input.val()
       words = text.toLowerCase().trim().split(wordsplit)
-      console.log words
       similar = []
       matchers = {matches: [], antimatches: []}
 
