@@ -42,7 +42,7 @@ $ ->
 
     $.get '{{ site.baseurl }}/search.json', (data)->
       searchIndex = data
-      do generateWordList
+      do generateWordList unless data.words
       ajax.resolve data
 
 
