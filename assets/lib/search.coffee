@@ -25,7 +25,10 @@ $ ->
 
     searchIndex.pages.forEach (obj, pageId) ->
       obj.wordlist.split(' ').forEach (word) ->
+        return if word == ''
+
         wordlistAll[word] ||= []
+
         try
           wordlistAll[word].push pageId
         catch e
@@ -51,8 +54,13 @@ $ ->
     $('#results-none').hide()
 
     if matches.length > 0
+      fakedate = '1977-01-01'
+
       # Sort by date
       matches.sort (a, b) ->
+        dateA = pages[a].date || fakedate
+        dateB = pages[b].date || fakedate
+
         # Title match score (weighted heavily)
         titleA = pages[a].title.toLowerCase().score(text)
         titleB = pages[b].title.toLowerCase().score(text)
@@ -62,8 +70,8 @@ $ ->
         summB = pages[b].summary.toLowerCase().score(text)
 
         # Date score (very small weight)
-        dateScoreA = Date.parse(pages[a].date.split(' ')[0]) / Date.now() * 0.05
-        dateScoreB = Date.parse(pages[b].date.split(' ')[0]) / Date.now() * 0.05
+        dateScoreA = Date.parse(dateA.split(' ')[0]) / Date.now() * 0.05
+        dateScoreB = Date.parse(dateB.split(' ')[0]) / Date.now() * 0.05
 
         # Generate page scores
         # (and add a 'score' value to the page info)
