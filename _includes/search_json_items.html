@@ -15,12 +15,17 @@
     {% endif %}
   {% endif %}
 
+  {% if _page.date %}
+    {% assign _date_parts = _page.date | date: '%Y %B %-d' %}
+  {% endif %}
+
   {% assign _wordlist = _content
     | append: " " | append: _page.title
     | append: " " | append: _page.tags
     | append: " " | append: _page.category
     | append: " " | append: _page.url
     | append: " " | append: _page.author
+    | append: " " | append: _date_parts
     | downcase
     | remove: '!'
     | remove: '"'
