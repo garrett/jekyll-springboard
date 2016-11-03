@@ -16,6 +16,11 @@
   {% endif %}
 
   {% assign _wordlist = _content
+    | append: " " | append: _page.title
+    | append: " " | append: _page.tags
+    | append: " " | append: _page.category
+    | append: " " | append: _page.url
+    | append: " " | append: _page.author
     | downcase
     | remove: '!'
     | remove: '"'
@@ -49,6 +54,7 @@
     | replace: '.', ' '
     | replace: '/', ' '
     | replace: ':', ' '
+    | replace: ',', ' '
     | split: ' '
     | sort
     | uniq
