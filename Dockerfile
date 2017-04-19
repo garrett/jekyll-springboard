@@ -1,11 +1,14 @@
-FROM centos:centos7
+FROM fedora:25
+
 WORKDIR /tmp/site
-RUN yum install -y tar libcurl-devel zlib-devel patch rubygem-bundler ruby-devel git make gcc gcc-c++ redhat-rpm-config && yum clean all 
+
+RUN dnf install -y rubygem-bundler ruby-devel libffi-devel make gcc gcc-c++ \
+  redhat-rpm-config zlib-devel libxml2-devel libxslt-devel tar && dnf clean all 
 
 # add these so bundle install works, even though eventually we'll use a volume
 # for our files
-ADD Gemfile  /tmp/Gemfile
-ADD Gemfile.lock /tmp/Gemfile.lock
+ADD Gemfile  /tmp/site/Gemfile
+ADD Gemfile.lock /tmp/site/Gemfile.lock
 
 RUN bundle install
 
