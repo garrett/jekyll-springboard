@@ -59,10 +59,8 @@ Features include:
 
 3. Run Jekyll:
    ```
-   bundle exec jekyll
+   bundle exec jekyll server
    ```
-   
-   _(Note: If you don't have a system-wide install, you should be able to just type `jekyll`)_
 
 ## Work with Your Site
 
