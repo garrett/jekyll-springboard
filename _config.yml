@@ -40,6 +40,11 @@ blog_summary_length: 50
 
 lang: en
 
+# Truncate blog summaries to this length
+blog_summary_length: 50
+
+lang: en
+
 # Build settings
 markdown: kramdown
 theme: minima
