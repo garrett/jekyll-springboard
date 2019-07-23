@@ -29,7 +29,7 @@ Features include:
    * **Fedora** / **RHEL** / **CentOS**:
      ```
      dnf install -y rubygem-bundler ruby-devel libffi-devel make gcc gcc-c++ \
-     redhat-rpm-config zlib-devel libxml2-devel libxslt-devel tar
+     redhat-rpm-config zlib-devel libxml2-devel libxslt-devel tar nodejs
      ```
      
    * **openSUSE**:
