@@ -1,0 +1,8 @@
+#!/usr/bin/bash -e
+
+echo "## Deleting website container..."
+
+toolbox rm -f springboard-website
+rm -rf .gem
+
+echo "## Done! "
