@@ -29,11 +29,19 @@ permalink: blog/:year/:month/:slug/
 paginate: 10
 paginate_path: "/blog/page=:num"
 
+# Publish articles with a date/time set in the future
+future: true
+
 # Ignore certain phrases from the blog listing (comma-separated)
 # blog_ignore: ""
 
 # Summarize to blog content to headings?
 blog_summary_headings: true
+
+# Truncate blog summaries to this length
+blog_summary_length: 50
+
+lang: en
 
 # Truncate blog summaries to this length
 blog_summary_length: 50

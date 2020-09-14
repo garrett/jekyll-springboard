@@ -11,7 +11,7 @@ $ ->
   $matchesString = $('#matches')
   $results = $('#results')
   $progress = $('#progress')
-  $template = $('#template')
+  template = $('#template').html()
 
   searchIndex = null
 
@@ -87,7 +87,7 @@ $ ->
         page = pages[match]
 
         # Clone search result snippet
-        $snippet = $template.children().clone()
+        $snippet = $(template)
 
         # Add data to the cloned template
         $snippet.removeClass('hidden')
@@ -151,12 +151,12 @@ $ ->
         polarity = if word.match(/^-/) then 'antimatches' else 'matches'
         # Strip dashes at the beginning and periods at the end of a word
         word = word.replace(/^-/, '').replace(/\.$/, '')
-        # Search for the existance of words
+        # Search for the existence of words
         wordMatch = data.words[word.toUpperCase()]
 
         if wordMatch
           if matchers[polarity].length < 1
-            # First word; propogate the matches
+            # First word; propagate the matches
             matchers[polarity] = wordMatch
           else
             if polarity == 'matches'
@@ -218,7 +218,7 @@ $ ->
   do loadsearchIndex
 
   $form
-    .on 'keypress', (e)->
+    .on 'keydown', (e)->
       switch e.key
         when "Tab", "Down", "ArrowDown"
           $('#similar a:first,#results a').first().focus()
@@ -233,7 +233,7 @@ $ ->
       do updateHash
       do e.preventDefault
 
-  $similar.on 'keypress', 'a', (e)->
+  $similar.on 'keydown', 'a', (e)->
     switch e.key
       when "Right", "ArrowRight"
         $(@).next().focus()
@@ -249,7 +249,7 @@ $ ->
         selectForm()
 
   $results
-    .on 'keypress', 'a', (e) ->
+    .on 'keydown', 'a', (e) ->
       $article = $(@).parentsUntil('#results')
       switch e.key
         when "Down", "ArrowDown"
@@ -266,7 +266,7 @@ $ ->
       $(@).parentsUntil('#results').removeClass('highlight')
 
   $(document)
-    .on 'keypress', (e) ->
+    .on 'keydown', (e) ->
       switch e.key
         when "Esc", "Escape"
           $input.val('')

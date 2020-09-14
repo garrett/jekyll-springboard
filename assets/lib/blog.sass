@@ -65,6 +65,10 @@ article.post
       display: block
       margin: 1em auto
       background: #999
+      /* Fit width to page
+      max-width: calc(100vw - 2rem)
+      /* Attempt to preserve aspect ratio
+      max-height: calc(100vw * 1080 / 1920)
 
   + article.post
     margin-top: 3em
@@ -124,7 +128,7 @@ article.post
   p
     > img:first-child,
     > a[href*=flickr] img
-      max-width: 100%
+      max-width: calc(100% - 2px) /* 2px for a 1px border */
       height: auto
       display: block
       text-align: center
@@ -141,9 +145,6 @@ article.post
       @media screen and (max-width: 651px)
         max-width: 33%
         height: auto
-
-  ul
-    margin: 10px
 
   li > p
     margin: 0
